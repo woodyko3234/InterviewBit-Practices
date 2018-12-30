@@ -26,3 +26,14 @@ Python programming practices on InterviewBit
 |[Pascal Triangle](https://www.interviewbit.com/problems/pascal-triangle/) | [Pascal Triangle](https://github.com/woodyko3234/InterviewBit-Practices/blob/master/Arrays/Simulation%20Array/Pascal_Triangle.py) | TBD |
 |[Kth Row of Pascal's Triangle](https://www.interviewbit.com/problems/kth-row-of-pascals-triangle/) | [Kth Row of Pascal's Triangle](https://github.com/woodyko3234/InterviewBit-Practices/blob/master/Arrays/Simulation%20Array/Kth_Row_of_Pascal's_Triangle.py) | TBD |
 |[Anti Diagonals](https://www.interviewbit.com/problems/anti-diagonals/) | [Anti Diagonals](https://github.com/woodyko3234/InterviewBit-Practices/blob/master/Arrays/Simulation%20Array/Anti_Diagonals.py) | TBD |
+
+### Bucketing or sorting
+| Question        | Solution           | Explanation  |
+| ------------- |:-------------:| -----:|
+|[Hotel Bookings Possible](https://www.interviewbit.com/problems/hotel-bookings-possible/) | [Hotel Bookings Possible](https://github.com/woodyko3234/InterviewBit-Practices/blob/master/Arrays/Bucketing%20and%20Sorting/Hotel_Bookings_Possible.py) | TBD |
+|[Wave Array](https://www.interviewbit.com/problems/wave-array/) | [Wave Array](https://github.com/woodyko3234/InterviewBit-Practices/blob/master/Arrays/Bucketing%20and%20Sorting/Wave_Array.py) | TBD |
+|[Largest Number](https://www.interviewbit.com/problems/largest-number/) | [Largest Number](https://github.com/woodyko3234/InterviewBit-Practices/blob/master/Arrays/Bucketing%20and%20Sorting/Largest_Number.py) | TBD |
+|[Max Distance](https://www.interviewbit.com/problems/max-distance/) | [Max Distance](https://github.com/woodyko3234/InterviewBit-Practices/blob/master/Arrays/Bucketing%20and%20Sorting/Max_Distance.py) | TBD |
+|[Maximum Unsorted Subarray](https://www.interviewbit.com/problems/maximum-unsorted-subarray/) | [Maximum Unsorted Subarray](https://github.com/woodyko3234/InterviewBit-Practices/blob/master/Arrays/Bucketing%20and%20Sorting/Maximum_Unsorted_Subarray.py) | TBD |
+|[Find Duplicate in Array](https://www.interviewbit.com/problems/find-duplicate-in-array/) | [Find Duplicate in Array](https://github.com/woodyko3234/InterviewBit-Practices/blob/master/Arrays/Bucketing%20and%20Sorting/Find_Duplicate_in_Array.py) | TBD |
+|[Maximum Consecutive Gap](https://www.interviewbit.com/problems/maximum-consecutive-gap/) | [Maximum Consecutive Gap](https://github.com/woodyko3234/InterviewBit-Practices/blob/master/Arrays/Bucketing%20and%20Sorting/Maximum_Consecutive_Gap.py) | TBD |

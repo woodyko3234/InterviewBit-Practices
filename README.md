@@ -37,3 +37,9 @@ Python programming practices on InterviewBit
 |[Maximum Unsorted Subarray](https://www.interviewbit.com/problems/maximum-unsorted-subarray/) | [Maximum Unsorted Subarray](https://github.com/woodyko3234/InterviewBit-Practices/blob/master/Arrays/Bucketing%20and%20Sorting/Maximum_Unsorted_Subarray.py) | TBD |
 |[Find Duplicate in Array](https://www.interviewbit.com/problems/find-duplicate-in-array/) | [Find Duplicate in Array](https://github.com/woodyko3234/InterviewBit-Practices/blob/master/Arrays/Bucketing%20and%20Sorting/Find_Duplicate_in_Array.py) | TBD |
 |[Maximum Consecutive Gap](https://www.interviewbit.com/problems/maximum-consecutive-gap/) | [Maximum Consecutive Gap](https://github.com/woodyko3234/InterviewBit-Practices/blob/master/Arrays/Bucketing%20and%20Sorting/Maximum_Consecutive_Gap.py) | TBD |
+
+### Space recycle
+| Question        | Solution           | Explanation  |
+| ------------- |:-------------:| -----:|
+|[Set Matrix Zeros](https://www.interviewbit.com/problems/set-matrix-zeros/) | [Set Matrix Zeros](https://github.com/woodyko3234/InterviewBit-Practices/blob/master/Arrays/Space%20Recycle/Set_Matrix_Zeros.py) | TBD |
+|[First Missing Integer](https://www.interviewbit.com/problems/first-missing-integer/) | [First Missing Integer](https://github.com/woodyko3234/InterviewBit-Practices/blob/master/Arrays/Space%20Recycle/First_Missing_Integer.py) | TBD |

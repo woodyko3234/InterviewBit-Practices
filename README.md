@@ -43,3 +43,11 @@ Python programming practices on InterviewBit
 | ------------- |:-------------:| -----:|
 |[Set Matrix Zeros](https://www.interviewbit.com/problems/set-matrix-zeros/) | [Set Matrix Zeros](https://github.com/woodyko3234/InterviewBit-Practices/blob/master/Arrays/Space%20Recycle/Set_Matrix_Zeros.py) | TBD |
 |[First Missing Integer](https://www.interviewbit.com/problems/first-missing-integer/) | [First Missing Integer](https://github.com/woodyko3234/InterviewBit-Practices/blob/master/Arrays/Space%20Recycle/First_Missing_Integer.py) | TBD |
+
+### Missing / repeated number
+| Question        | Solution           | Explanation  |
+| ------------- |:-------------:| -----:|
+|[First Missing Integer](https://www.interviewbit.com/problems/first-missing-integer/) | [First Missing Integer](https://github.com/woodyko3234/InterviewBit-Practices/blob/master/Arrays/Space%20Recycle/First_Missing_Integer.py) | TBD |
+|[Repeat and Missing Number Array](https://www.interviewbit.com/problems/repeat-and-missing-number-array/) | [Repeat and Missing Number Array](https://github.com/woodyko3234/InterviewBit-Practices/blob/master/Arrays/Array%20Math/Repeat_and_Missing_Number_Array.py) | TBD |
+|[Find Duplicate in Array](https://www.interviewbit.com/problems/find-duplicate-in-array/) | [Find Duplicate in Array](https://github.com/woodyko3234/InterviewBit-Practices/blob/master/Arrays/Missing%20or%20repeated%20number/Find_Duplicate_in_Array.py) | TBD |
+|[N/3 Repeat Number](https://www.interviewbit.com/problems/n3-repeat-number/) | [N/3 Repeat Number](https://github.com/woodyko3234/InterviewBit-Practices/blob/master/Arrays/Missing%20or%20repeated%20number/N3_Repeat_Number.py) | TBD |

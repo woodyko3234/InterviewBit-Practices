@@ -5,7 +5,7 @@ Python programming practices on InterviewBit
 ### Array Math
 | Question        | Solution           | Explanation  |
 | ------------- |:-------------:| -----:|
-| [Min Steps in Infinite Grid](https://www.interviewbit.com/problems/min-steps-in-infinite-grid/)      | [Min Steps in Infinite Grid](https://github.com/woodyko3234/InterviewBit-Practices/blob/master/Arrays/Array%20Math/Min_Steps_in_Infinite_Grid.py) | TBD |
+| [Min Steps in Infinite Grid](https://www.interviewbit.com/problems/min-steps-in-infinite-grid/)      | [Min Steps in Infinite Grid](https://github.com/woodyko3234/InterviewBit-Practices/blob/master/Arrays/Array%20Math/Min_Steps_in_Infinite_Grid.py) | [InterviewBit – Min Steps in Infinite Grid](https://python5566.wordpress.com/2019/01/04/interviewbit-min-steps-in-infinite-grid/) |
 | [Add One To Number](https://www.interviewbit.com/problems/add-one-to-number/)      | [Add One To Number](https://github.com/woodyko3234/InterviewBit-Practices/blob/master/Arrays/Array%20Math/Add_One_To_Number.py)      |   [InterviewBit – Add One To Number](https://python5566.wordpress.com/2017/10/26/interviewbit-add-one-to-number/) |
 | [Max Sum Contiguous Subarray](https://www.interviewbit.com/problems/max-sum-contiguous-subarray/) | [Max Sum Contiguous Subarray](https://github.com/woodyko3234/InterviewBit-Practices/blob/master/Arrays/Array%20Math/Max_Sum_Contiguous_Subarray.py)      |    TBD |
 | [Maximum Absolute Difference](https://www.interviewbit.com/problems/maximum-absolute-difference/) | [Maximum Absolute Difference](https://github.com/woodyko3234/InterviewBit-Practices/blob/master/Arrays/Array%20Math/Maximum_Absolute_Difference.py) | TBD |

@@ -16,7 +16,7 @@ Python programming practices on InterviewBit
 | Question        | Solution           | Explanation  |
 | ------------- |:-------------:| -----:|
 | [Merge Intervals](https://www.interviewbit.com/problems/merge-intervals/) | [Merge Intervals](https://github.com/woodyko3234/InterviewBit-Practices/blob/master/Arrays/Value%20Ranges/Merge_Intervals.py) | [InterviewBit – Merge Intervals](https://python5566.wordpress.com/2019/01/07/interviewbit-merge-intervals/) |
-| [Merge Overlapping Intervals](https://www.interviewbit.com/problems/merge-overlapping-intervals/) | [Merge Overlapping Intervals](https://github.com/woodyko3234/InterviewBit-Practices/blob/master/Arrays/Value%20Ranges/Merge_Overlapping_Intervals.py) | TBD |
+| [Merge Overlapping Intervals](https://www.interviewbit.com/problems/merge-overlapping-intervals/) | [Merge Overlapping Intervals](https://github.com/woodyko3234/InterviewBit-Practices/blob/master/Arrays/Value%20Ranges/Merge_Overlapping_Intervals.py) | [InterviewBit – Merge Overlapping Intervals](python5566.wordpress.com/2019/01/07/interviewbit-merge-overlapping-intervals/) |
 
 ### Simulation Array
 | Question        | Solution           | Explanation  |

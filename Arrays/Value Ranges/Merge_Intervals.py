@@ -9,6 +9,25 @@ class Solution:
     # @param newInterval, a Interval
     # @return a list of Interval
     def insert(self, intervals, newInterval):
+        start, end = newInterval.start, newInterval.end
+        if len(intervals) == 0: return [newInterval]
+        elif start >= intervals[-1].end: return intervals[:] + [newInterval]
+        left, right = 0,0
+        while right < len(intervals):
+            if end <= intervals[right].start: break
+            if start > intervals[right].end: left += 1
+            else:
+                start = min(start, intervals[right].start)
+                end = max(end, intervals[right].end)
+            right += 1
+        return intervals[:left] + [Interval(start, end)] + intervals[right:]
+
+'''
+class Solution:
+    # @param intervals, a list of Intervals
+    # @param newInterval, a Interval
+    # @return a list of Interval
+    def insert(self, intervals, newInterval):
         if len(intervals) == 0:
             return [newInterval]
         if newInterval.end < intervals[0].start:
@@ -70,3 +89,4 @@ class Solution:
         newInterval = Interval(leftEnd, rightEnd)
         intervals = intervals[:i] + [newInterval] + intervals[j+1:]
         return intervals
+'''

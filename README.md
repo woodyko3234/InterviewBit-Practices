@@ -9,13 +9,13 @@ Python programming practices on InterviewBit
 | [Add One To Number](https://www.interviewbit.com/problems/add-one-to-number/)      | [Add One To Number](https://github.com/woodyko3234/InterviewBit-Practices/blob/master/Arrays/Array%20Math/Add_One_To_Number.py)      |   [InterviewBit – Add One To Number](https://python5566.wordpress.com/2017/10/26/interviewbit-add-one-to-number/) |
 | [Max Sum Contiguous Subarray](https://www.interviewbit.com/problems/max-sum-contiguous-subarray/) | [Max Sum Contiguous Subarray](https://github.com/woodyko3234/InterviewBit-Practices/blob/master/Arrays/Array%20Math/Max_Sum_Contiguous_Subarray.py)      |    [InterviewBit – Max Sum Contiguous Subarray](https://python5566.wordpress.com/2019/01/04/interviewbit-max-sum-contiguous-subarray/) |
 | [Maximum Absolute Difference](https://www.interviewbit.com/problems/maximum-absolute-difference/) | [Maximum Absolute Difference](https://github.com/woodyko3234/InterviewBit-Practices/blob/master/Arrays/Array%20Math/Maximum_Absolute_Difference.py) | [InterviewBit – Maximum Absolute Difference](https://python5566.wordpress.com/2019/01/04/interviewbit-maximum-absolute-difference/) |
-| [Repeat and Missing Number Array](https://www.interviewbit.com/problems/repeat-and-missing-number-array/) | [Repeat and Missing Number Array](https://github.com/woodyko3234/InterviewBit-Practices/blob/master/Arrays/Array%20Math/Repeat_and_Missing_Number_Array.py) | TBD |
+| [Repeat and Missing Number Array](https://www.interviewbit.com/problems/repeat-and-missing-number-array/) | [Repeat and Missing Number Array](https://github.com/woodyko3234/InterviewBit-Practices/blob/master/Arrays/Array%20Math/Repeat_and_Missing_Number_Array.py) | [InterviewBit – Repeat and Missing Number Array](https://python5566.wordpress.com/2019/01/06/interviewbit-repeat-and-missing-number-array/) |
 |[Flip](https://www.interviewbit.com/problems/flip/) | [Flip](https://github.com/woodyko3234/InterviewBit-Practices/blob/master/Arrays/Array%20Math/Flip.py) | [InterviewBit – Flip](https://python5566.wordpress.com/2017/11/21/interviewbit-flip/) |
 
 ### Value Ranges
 | Question        | Solution           | Explanation  |
 | ------------- |:-------------:| -----:|
-| [Merge Intervals](https://www.interviewbit.com/problems/merge-intervals/) | [Merge Intervals](https://github.com/woodyko3234/InterviewBit-Practices/blob/master/Arrays/Value%20Ranges/Merge_Intervals.py) | TBD |
+| [Merge Intervals](https://www.interviewbit.com/problems/merge-intervals/) | [Merge Intervals](https://github.com/woodyko3234/InterviewBit-Practices/blob/master/Arrays/Value%20Ranges/Merge_Intervals.py) | [InterviewBit – Merge Intervals](https://python5566.wordpress.com/2019/01/07/interviewbit-merge-intervals/) |
 | [Merge Overlapping Intervals](https://www.interviewbit.com/problems/merge-overlapping-intervals/) | [Merge Overlapping Intervals](https://github.com/woodyko3234/InterviewBit-Practices/blob/master/Arrays/Value%20Ranges/Merge_Overlapping_Intervals.py) | TBD |
 
 ### Simulation Array

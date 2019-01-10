@@ -21,7 +21,7 @@ Python programming practices on InterviewBit
 ### Simulation Array
 | Question        | Solution           | Explanation  |
 | ------------- |:-------------:| -----:|
-|[Max Non Negative SubArray](https://www.interviewbit.com/problems/max-non-negative-subarray/) | [Max Non Negative SubArray](https://github.com/woodyko3234/InterviewBit-Practices/blob/master/Arrays/Simulation%20Array/Max_Non_Negative_SubArray.py) | TBD |
+|[Max Non Negative SubArray](https://www.interviewbit.com/problems/max-non-negative-subarray/) | [Max Non Negative SubArray](https://github.com/woodyko3234/InterviewBit-Practices/blob/master/Arrays/Simulation%20Array/Max_Non_Negative_SubArray.py) | [InterviewBit – Max Non Negative SubArray](python5566.wordpress.com/2019/01/11/interviewbit-max-non-negative-subarray/) |
 |[Spiral Order Matrix II](https://www.interviewbit.com/problems/spiral-order-matrix-ii/) | [Spiral Order Matrix II](https://github.com/woodyko3234/InterviewBit-Practices/blob/master/Arrays/Simulation%20Array/Spiral_Order_Matrix_II.py) | TBD |
 |[Pascal Triangle](https://www.interviewbit.com/problems/pascal-triangle/) | [Pascal Triangle](https://github.com/woodyko3234/InterviewBit-Practices/blob/master/Arrays/Simulation%20Array/Pascal_Triangle.py) | TBD |
 |[Kth Row of Pascal's Triangle](https://www.interviewbit.com/problems/kth-row-of-pascals-triangle/) | [Kth Row of Pascal's Triangle](https://github.com/woodyko3234/InterviewBit-Practices/blob/master/Arrays/Simulation%20Array/Kth_Row_of_Pascal's_Triangle.py) | TBD |

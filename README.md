@@ -30,7 +30,7 @@ Python programming practices on InterviewBit
 ### Bucketing or sorting
 | Question        | Solution           | Explanation  |
 | ------------- |:-------------:| -----:|
-|[Hotel Bookings Possible](https://www.interviewbit.com/problems/hotel-bookings-possible/) | [Hotel Bookings Possible](https://github.com/woodyko3234/InterviewBit-Practices/blob/master/Arrays/Bucketing%20and%20Sorting/Hotel_Bookings_Possible.py) | TBD |
+|[Hotel Bookings Possible](https://www.interviewbit.com/problems/hotel-bookings-possible/) | [Hotel Bookings Possible](https://github.com/woodyko3234/InterviewBit-Practices/blob/master/Arrays/Bucketing%20and%20Sorting/Hotel_Bookings_Possible.py) | [InterviewBit – Hotel Bookings Possible](https://python5566.wordpress.com/2019/01/18/interviewbit-hotel-bookings-possible/) |
 |[Wave Array](https://www.interviewbit.com/problems/wave-array/) | [Wave Array](https://github.com/woodyko3234/InterviewBit-Practices/blob/master/Arrays/Bucketing%20and%20Sorting/Wave_Array.py) | TBD |
 |[Largest Number](https://www.interviewbit.com/problems/largest-number/) | [Largest Number](https://github.com/woodyko3234/InterviewBit-Practices/blob/master/Arrays/Bucketing%20and%20Sorting/Largest_Number.py) | TBD |
 |[Max Distance](https://www.interviewbit.com/problems/max-distance/) | [Max Distance](https://github.com/woodyko3234/InterviewBit-Practices/blob/master/Arrays/Bucketing%20and%20Sorting/Max_Distance.py) | TBD |
@@ -59,7 +59,7 @@ Python programming practices on InterviewBit
 |[Triplets with Sum between given range](https://www.interviewbit.com/problems/triplets-with-sum-between-given-range/) |[Triplets with Sum between given range](https://github.com/woodyko3234/InterviewBit-Practices/blob/master/Arrays/Bucketing/Triplets_with_Sum_between_given_range.py) | TBD |
 [Largest Number](https://www.interviewbit.com/problems/largest-number/) | [Largest Number](https://github.com/woodyko3234/InterviewBit-Practices/blob/master/Arrays/Bucketing%20and%20Sorting/Largest_Number.py) | TBD |
 |[Wave Array](https://www.interviewbit.com/problems/wave-array/) | [Wave Array](https://github.com/woodyko3234/InterviewBit-Practices/blob/master/Arrays/Bucketing%20and%20Sorting/Wave_Array.py) | TBD |
-|[Hotel Bookings Possible](https://www.interviewbit.com/problems/hotel-bookings-possible/) | [Hotel Bookings Possible](https://github.com/woodyko3234/InterviewBit-Practices/blob/master/Arrays/Bucketing%20and%20Sorting/Hotel_Bookings_Possible.py) | TBD |
+|[Hotel Bookings Possible](https://www.interviewbit.com/problems/hotel-bookings-possible/) | [Hotel Bookings Possible](https://github.com/woodyko3234/InterviewBit-Practices/blob/master/Arrays/Bucketing%20and%20Sorting/Hotel_Bookings_Possible.py) | [InterviewBit – Hotel Bookings Possible](https://python5566.wordpress.com/2019/01/18/interviewbit-hotel-bookings-possible/) |
 |[Max Distance](https://www.interviewbit.com/problems/max-distance/) | [Max Distance](https://github.com/woodyko3234/InterviewBit-Practices/blob/master/Arrays/Bucketing%20and%20Sorting/Max_Distance.py) | TBD |
 |[Maximum Unsorted Subarray](https://www.interviewbit.com/problems/maximum-unsorted-subarray/) | [Maximum Unsorted Subarray](https://github.com/woodyko3234/InterviewBit-Practices/blob/master/Arrays/Bucketing%20and%20Sorting/Maximum_Unsorted_Subarray.py) | TBD |
 |[Find Duplicate in Array](https://www.interviewbit.com/problems/find-duplicate-in-array/) | [Find Duplicate in Array](https://github.com/woodyko3234/InterviewBit-Practices/blob/master/Arrays/Bucketing%20and%20Sorting/Find_Duplicate_in_Array.py) | TBD |

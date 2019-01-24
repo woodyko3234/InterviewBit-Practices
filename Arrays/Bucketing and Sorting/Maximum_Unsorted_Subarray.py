@@ -11,28 +11,33 @@ class Solution:
         then min(Al, …, Ar) >= max(A0, …, Al-1)
         and max(Al, …, Ar) <= min(Ar+1, …, AN-1)
         '''
-        #eg. [2,1] => [1]
-        #output: list of indices start and end
         si = -1
         ei = 0
         max1 = 0
         min1 = max(A)
-        minind = -1
-        for i in range(1,len(A)):
-            if A[i] < A[i - 1] or A[i] < max1:
-                if si == -1:
-                    si = i - 1
+        i, l = 1, len(A)
+        while i < l:
+            if A[i] >= A[i-1]: i += 1
+            else:
                 ei = i
-                min1 = min(min1,A[i])
-            max1 = max(max1,A[i])
-            
-        if si == -1:
-            return [-1]
-        else:
-            for i in range(0,si):
-                if A[i] > min1:
-                    minind = i
-                    break
-            if minind < si and minind != -1:
-                si = minind
-            return [si,ei]
+                for j in range(0, i):
+                    if A[j] > A[ei]:
+                        si = j
+                        break
+                max1 = max(A[si:ei+1])
+                min1 = min(A[si:ei+1])
+                for i in range(i+1, l):
+                    if A[i] < max1: 
+                        ei = i
+                        if A[i] < min1: min1 = A[i]
+                    else: max1 = A[i]
+                for j in range(0, si):
+                    if A[j] > min1:
+                        si = j
+                        break
+                break
+        if si == -1: return [si]
+        return [si, ei]
+                        
+                        
+                        

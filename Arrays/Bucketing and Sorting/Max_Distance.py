@@ -13,7 +13,6 @@ class Solution:
         while i >= 0:
             max_index_from_i[i] = max(max_index_from_i[i+1], index[i])
             i -= 1
-        print(max_index_from_i)
         for i in range(len(A) - 1):
             largest_distance = max(largest_distance, max_index_from_i[i] - index[i])
         if largest_distance <= 0:

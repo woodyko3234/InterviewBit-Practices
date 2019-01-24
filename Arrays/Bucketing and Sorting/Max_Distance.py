@@ -4,18 +4,19 @@ class Solution:
     def maximumGap(self, A):
         if len(A) == 0:
             return -1
-        # arr[i][j] = max distance starting from i and including up to j
-        index = list(range(len(A)))
-        index.sort(key=lambda x: A[x])
-        largest_distance = 0
-        max_index_from_i = [index[-1]] * len(A)
-        i = len(A) - 2
-        while i >= 0:
-            max_index_from_i[i] = max(max_index_from_i[i+1], index[i])
-            i -= 1
-        for i in range(len(A) - 1):
-            largest_distance = max(largest_distance, max_index_from_i[i] - index[i])
-        if largest_distance <= 0:
-            return 0
-        else:
-            return largest_distance
+        arr = []
+        # add index info into the array
+        for idx, v in enumerate(A):
+            arr.append([v, idx])
+        arr.sort()
+        #[ 5, 3, 11 ] => [[3, 1], [5, 0], [11, 2]]
+        cur_idx = arr[0][1]
+        max_diff = -1
+        for j in arr:
+            if j[1] < cur_idx:
+                #replace
+                cur_idx = j[1]
+            else:
+                if  j[1] - cur_idx > max_diff:
+                    max_diff = j[1] - cur_idx
+        return max_diff

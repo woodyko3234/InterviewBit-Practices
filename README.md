@@ -41,15 +41,15 @@ Python programming practices on InterviewBit
 ### Space recycle
 | Question        | Solution           | Explanation  |
 | ------------- |:-------------:| -----:|
-|[Set Matrix Zeros](https://www.interviewbit.com/problems/set-matrix-zeros/) | [Set Matrix Zeros](https://github.com/woodyko3234/InterviewBit-Practices/blob/master/Arrays/Space%20Recycle/Set_Matrix_Zeros.py) | TBD |
+|[Set Matrix Zeros](https://www.interviewbit.com/problems/set-matrix-zeros/) | [Set Matrix Zeros](https://github.com/woodyko3234/InterviewBit-Practices/blob/master/Arrays/Space%20Recycle/Set_Matrix_Zeros.py) | [InterviewBit – Set Matrix Zeros](https://python5566.wordpress.com/2019/02/02/interviewbit-set-matrix-zeros/) |
 |[First Missing Integer](https://www.interviewbit.com/problems/first-missing-integer/) | [First Missing Integer](https://github.com/woodyko3234/InterviewBit-Practices/blob/master/Arrays/Space%20Recycle/First_Missing_Integer.py) | [InterviewBit – First Missing Integer](https://python5566.wordpress.com/2017/11/13/interviewbit-first-missing-integer/) |
 
 ### Missing / repeated number
 | Question        | Solution           | Explanation  |
 | ------------- |:-------------:| -----:|
 |[First Missing Integer](https://www.interviewbit.com/problems/first-missing-integer/) | [First Missing Integer](https://github.com/woodyko3234/InterviewBit-Practices/blob/master/Arrays/Space%20Recycle/First_Missing_Integer.py) | [InterviewBit – First Missing Integer](https://python5566.wordpress.com/2017/11/13/interviewbit-first-missing-integer/) |
-|[Repeat and Missing Number Array](https://www.interviewbit.com/problems/repeat-and-missing-number-array/) | [Repeat and Missing Number Array](https://github.com/woodyko3234/InterviewBit-Practices/blob/master/Arrays/Array%20Math/Repeat_and_Missing_Number_Array.py) | TBD |
-|[Find Duplicate in Array](https://www.interviewbit.com/problems/find-duplicate-in-array/) | [Find Duplicate in Array](https://github.com/woodyko3234/InterviewBit-Practices/blob/master/Arrays/Missing%20or%20repeated%20number/Find_Duplicate_in_Array.py) | TBD |
+|[Repeat and Missing Number Array](https://www.interviewbit.com/problems/repeat-and-missing-number-array/) | [Repeat and Missing Number Array](https://github.com/woodyko3234/InterviewBit-Practices/blob/master/Arrays/Array%20Math/Repeat_and_Missing_Number_Array.py) | [InterviewBit – Repeat and Missing Number Array](https://python5566.wordpress.com/2019/01/06/interviewbit-repeat-and-missing-number-array/) |
+|[Find Duplicate in Array](https://www.interviewbit.com/problems/find-duplicate-in-array/) | [Find Duplicate in Array](https://github.com/woodyko3234/InterviewBit-Practices/blob/master/Arrays/Missing%20or%20repeated%20number/Find_Duplicate_in_Array.py) | [InterviewBit – Find Duplicate in Array](https://python5566.wordpress.com/2017/11/01/interviewbit-find-duplicate-in-array/) |
 |[N/3 Repeat Number](https://www.interviewbit.com/problems/n3-repeat-number/) | [N/3 Repeat Number](https://github.com/woodyko3234/InterviewBit-Practices/blob/master/Arrays/Missing%20or%20repeated%20number/N3_Repeat_Number.py) | TBD |
 
 ### Bucketing

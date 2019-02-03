@@ -55,8 +55,8 @@ Python programming practices on InterviewBit
 ### Bucketing
 | Question        | Solution           | Explanation  |
 | ------------- |:-------------:| -----:|
-|[Noble Integer](https://www.interviewbit.com/problems/noble-integer/) | [Noble Integer](https://github.com/woodyko3234/InterviewBit-Practices/blob/master/Arrays/Bucketing/Noble_Integer.py) | TBD |
-|[Triplets with Sum between given range](https://www.interviewbit.com/problems/triplets-with-sum-between-given-range/) |[Triplets with Sum between given range](https://github.com/woodyko3234/InterviewBit-Practices/blob/master/Arrays/Bucketing/Triplets_with_Sum_between_given_range.py) | TBD |
+|[Noble Integer](https://www.interviewbit.com/problems/noble-integer/) | [Noble Integer](https://github.com/woodyko3234/InterviewBit-Practices/blob/master/Arrays/Bucketing/Noble_Integer.py) | [InterviewBit – Noble Integer](https://python5566.wordpress.com/2019/02/03/interviewbit-noble-integer/) |
+|[Triplets with Sum between given range](https://www.interviewbit.com/problems/triplets-with-sum-between-given-range/) |[Triplets with Sum between given range](https://github.com/woodyko3234/InterviewBit-Practices/blob/master/Arrays/Bucketing/Triplets_with_Sum_between_given_range.py) | [InterviewBit – Triplets with Sum between given range](https://python5566.wordpress.com/2019/02/03/interviewbit-triplets-with-sum-between-given-range/) |
 [Largest Number](https://www.interviewbit.com/problems/largest-number/) | [Largest Number](https://github.com/woodyko3234/InterviewBit-Practices/blob/master/Arrays/Bucketing%20and%20Sorting/Largest_Number.py) | [InterviewBit – Largest Number](https://python5566.wordpress.com/2019/01/18/interviewbit-largest-number/) |
 |[Wave Array](https://www.interviewbit.com/problems/wave-array/) | [Wave Array](https://github.com/woodyko3234/InterviewBit-Practices/blob/master/Arrays/Bucketing%20and%20Sorting/Wave_Array.py) | [InterviewBit – Wave Array](https://python5566.wordpress.com/2019/01/18/interviewbit-wave-array/) |
 |[Hotel Bookings Possible](https://www.interviewbit.com/problems/hotel-bookings-possible/) | [Hotel Bookings Possible](https://github.com/woodyko3234/InterviewBit-Practices/blob/master/Arrays/Bucketing%20and%20Sorting/Hotel_Bookings_Possible.py) | [InterviewBit – Hotel Bookings Possible](https://python5566.wordpress.com/2019/01/18/interviewbit-hotel-bookings-possible/) |
@@ -68,7 +68,7 @@ Python programming practices on InterviewBit
 ### Array
 | Question        | Solution           | Explanation  |
 | ------------- |:-------------:| -----:|
-|[MAXSPPROD](https://www.interviewbit.com/problems/maxspprod/)|[MAXSPPROD](https://github.com/woodyko3234/InterviewBit-Practices/blob/master/Arrays/Array/MAXSPPROD.py)| TBD |
+|[MAXSPPROD](https://www.interviewbit.com/problems/maxspprod/)|[MAXSPPROD](https://github.com/woodyko3234/InterviewBit-Practices/blob/master/Arrays/Array/MAXSPPROD.py)| [InterviewBit – MAXSPPROD](https://python5566.wordpress.com/2019/02/03/interviewbit-maxspprod/) |
 
 ### Arrangement
 | Question        | Solution           | Explanation  |

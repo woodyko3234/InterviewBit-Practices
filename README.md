@@ -7,4 +7,4 @@ Besides the solution coding, I also write explanation articles in Chinese, since
 Hope you find some useful or inspiring and please feel free to let me know if there are any mistakes on the codes or explanations. Happy Coding :)
 
 ## Part I : [Array](https://github.com/woodyko3234/InterviewBit-Practices/blob/master/Arrays/README.md)
-## Part II: [Math TBD]
+## Part II: [Math](https://github.com/woodyko3234/InterviewBit-Practices/blob/master/Math/README.md)

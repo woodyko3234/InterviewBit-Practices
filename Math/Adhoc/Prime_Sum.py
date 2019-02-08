@@ -1,24 +1,19 @@
 class Solution:
-    # @param A : integer
-    # @return a list of integers
-    def primesum(self, A):
-        sieve = [True]*(A+1)
-        sieve[1] =False;
-        sieve[0] = False
-        i = 2
-        while(i*i <= A):
-            if(sieve[i]):
-                for j in range( i*2 , A+1 , i):
-                    sieve[j] = False
-            i+=1
-        ele = A // 2
-        found = False
-        one = 0
-        two = 0
-        while(ele != 2 or not found):
-            if(sieve[ele] and sieve[A - ele]):
-                found = True
-                one = ele
-                two = A - ele
-            ele -= 1
-        return [one,two]
+	# @param A : integer
+	# @return a list of integers
+	def primeUpdate(self, A):
+	    output = [True]*(A+1)
+	    output[0], output[1] = False, False
+	    for i in range(4, A+1, 2):
+	        output[i] = False
+	    for i in range(3, int(pow(A, 0.5))+1, 2):
+	        for j in range(i*2, A+1, i):
+	            output[j] = False
+	    return output
+	
+	def primesum(self, A):
+	    if A == 4: return [2,2]
+	    prime_statues = self.primeUpdate(A)
+	    for i in range(3, A, 2):
+	        if prime_statues[i] and prime_statues[A-i]:
+	            return [i, A-i]

@@ -6,12 +6,9 @@ class Solution:
         chars = []
         while A > 0:
             if A%26 != 0:
-                chars.append(A%26)
+                chars.append(chr(A%26 + 64))
                 A = A//26
             else:
-                chars.append(26)
+                chars.append(chr(26 + 64))
                 A = A//26 - 1
-        column = ''
-        for char in chars[::-1]:
-            column = column + chr(char + 64)
-        return column
+        return "".join(chars[::-1])

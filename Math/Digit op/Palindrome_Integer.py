@@ -3,11 +3,7 @@ class Solution:
     # @return a boolean value ( True / False )
     def isPalindrome(self, A):
         A = str(A)
-        end = len(A) - 1
-        begin = 0
-        while end >= begin:
-            if A[begin] != A[end]:
-                return False
-            end -= 1
-            begin += 1
-        return True
+        for i in range(len(A)//2):
+            if A[i] == A[-1-i]: continue
+            else: return 0
+        return 1

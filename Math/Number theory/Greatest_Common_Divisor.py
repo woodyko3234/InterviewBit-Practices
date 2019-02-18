@@ -11,10 +11,13 @@ class Solution:
         
         gcd = 1
         while times <= int(minimum):
-            if A % times == 0 and B % times == 0:
+            if times // 5 > 1 and times % 5 == 0: times += 2 
+            elif A % times == 0 and B % times == 0:
                 gcd *= times
                 A /= times
                 B /= times
                 minimum /= times
-            else: times += 1
+            else: 
+                if times == 2: times += 1
+                else: times += 2
         return gcd

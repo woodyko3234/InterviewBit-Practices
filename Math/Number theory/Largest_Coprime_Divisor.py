@@ -4,10 +4,12 @@ class Solution:
     # @return an integer
     def cpFact(self, A, B):
         while True:
-            A1 = A;
-            B1 = B;
-            while B1>0:
-                A1,B1 = B1,A1%B1;
-            if A1==1:
-                return A;
-            A = A//A1;
+            temp=Solution.gcd(A,B)
+            if temp==1:break
+            A = A // temp 
+        return A
+    def gcd(a,b):
+        if a==0:
+            return b
+        else:
+            return Solution.gcd(b%a,a)

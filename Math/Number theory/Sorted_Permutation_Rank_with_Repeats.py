@@ -1,3 +1,27 @@
+from collections import Counter
+class Solution:
+    # @param A : string
+    # @return an integer
+    def fact (self, n ) :
+        if n <= 1 :
+            return 1
+        else :
+            return n * self.fact(n-1)
+    def findRank(self, A):
+        n = len(A)
+        rank = 1
+        counter = Counter(A)
+        for i in range(n-1):
+            letter_rank = 0
+            denominator = 1
+            for k in counter.values():
+                denominator *= self.fact(k)
+            counter[A[i]] -= 1
+            for j in counter.keys():
+                if ord(A[i]) > ord(j): letter_rank += counter[j] 
+            rank += (letter_rank * self.fact(n-i-1) // denominator)
+        return rank % 1000003
+'''    
 class Solution:
     # @param A : string
     # @return an integer
@@ -25,3 +49,4 @@ class Solution:
             res = (res + rank * temp1 * temp)%1000003
             char_occur[A[i]] -= 1
         return res
+'''

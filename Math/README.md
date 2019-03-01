@@ -31,3 +31,19 @@ Python programming practices on InterviewBit
 | [Sorted Permutation Rank](https://www.interviewbit.com/problems/sorted-permutation-rank/) | [Sorted Permutation Rank](https://github.com/woodyko3234/InterviewBit-Practices/blob/master/Math/Number%20theory/Sorted_Permutation_Rank.py) | [InterviewBit – Sorted Permutation Rank](https://python5566.wordpress.com/2019/02/21/interviewbit-sorted-permutation-rank/) |
 | [Largest Coprime Divisor](https://www.interviewbit.com/problems/largest-coprime-divisor/) | [Largest Coprime Divisor](https://github.com/woodyko3234/InterviewBit-Practices/blob/master/Math/Number%20theory/Largest_Coprime_Divisor.py) | [InterviewBit – Largest Coprime Divisor](https://python5566.wordpress.com/2019/02/21/interviewbit-largest-coprime-divisor/) |
 | [Sorted Permutation Rank with Repeats](https://www.interviewbit.com/problems/sorted-permutation-rank-with-repeats/) | [Sorted Permutation Rank with Repeats](https://github.com/woodyko3234/InterviewBit-Practices/blob/master/Math/Number%20theory/Sorted_Permutation_Rank_with_Repeats.py) | [InterviewBit – Sorted Permutation Rank with Repeats](https://python5566.wordpress.com/2019/02/25/interviewbit-sorted-permutation-rank-with-repeats/) |
+
+### Array dp
+| Question        | Solution           | Explanation  |
+| ------------- |:-------------:| -----:|
+| [Numbers of length N and value less than K](https://www.interviewbit.com/problems/numbers-of-length-n-and-value-less-than-k/)      | [Numbers of length N and value less than K](https://github.com/woodyko3234/InterviewBit-Practices/blob/master/Math/Array%20dp/Numbers_of_length_N_and_value_less_than_K.py) | [InterviewBit – Numbers of length N and value less than K](https://python5566.wordpress.com/2019/02/28/interviewbit-numbers-of-length-n-and-value-less-than-k/) |
+
+### Number encoding
+| Question        | Solution           | Explanation  |
+| ------------- |:-------------:| -----:|
+| [Rearrange Array](https://www.interviewbit.com/problems/rearrange-array/) | [Rearrange Array](https://github.com/woodyko3234/InterviewBit-Practices/blob/master/Math/Number%20encoding/Rearrange_Array.py) | [InterviewBit – Rearrange Array](https://python5566.wordpress.com/2019/03/01/interviewbit-rearrange-array/) |
+
+### Combinatorics
+| Question        | Solution           | Explanation  |
+| ------------- |:-------------:| -----:|
+| [Random Attendance](https://www.interviewbit.com/problems/random-attendance/) |  TBD | TBD |
+| [Grid Unique Paths](https://www.interviewbit.com/problems/grid-unique-paths/) | [Grid Unique Paths](https://github.com/woodyko3234/InterviewBit-Practices/blob/master/Math/Combinatorics/Grid_Unique_Paths.py) | [InterviewBit – Grid Unique Paths](https://python5566.wordpress.com/2019/03/01/interviewbit-grid-unique-paths/) |

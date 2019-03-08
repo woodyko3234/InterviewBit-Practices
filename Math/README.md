@@ -45,5 +45,10 @@ Python programming practices on InterviewBit
 ### Combinatorics
 | Question        | Solution           | Explanation  |
 | ------------- |:-------------:| -----:|
-| [Random Attendance](https://www.interviewbit.com/problems/random-attendance/) |  TBD | TBD |
+| [City Tour](https://www.interviewbit.com/problems/city-tour/) |  [City Tour](https://github.com/woodyko3234/InterviewBit-Practices/blob/master/Math/Combinatorics/City_Tour.py) |  |
 | [Grid Unique Paths](https://www.interviewbit.com/problems/grid-unique-paths/) | [Grid Unique Paths](https://github.com/woodyko3234/InterviewBit-Practices/blob/master/Math/Combinatorics/Grid_Unique_Paths.py) | [InterviewBit – Grid Unique Paths](https://python5566.wordpress.com/2019/03/01/interviewbit-grid-unique-paths/) |
+
+### Array math
+| Question        | Solution           | Explanation  |
+| ------------- |:-------------:| -----:|
+| [Random Attendance](https://www.interviewbit.com/problems/random-attendance/) |  TBD | TBD |

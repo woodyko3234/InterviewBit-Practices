@@ -9,7 +9,7 @@ Python programming practices on InterviewBit
 | [Sum of pairwise Hamming Distance](https://www.interviewbit.com/problems/sum-of-pairwise-hamming-distance/)      | [Sum of pairwise Hamming Distance](https://github.com/woodyko3234/InterviewBit-Practices/blob/master/Math/Adhoc/Sum_of_pairwise_Hamming_Distance.py)      |  [InterviewBit – Sum of pairwise Hamming Distance](https://python5566.wordpress.com/2019/02/12/interviewbit-sum-of-pairwise-hamming-distance/) |
 | [FizzBuzz](https://www.interviewbit.com/problems/fizzbuzz/) | [FizzBuzz](https://github.com/woodyko3234/InterviewBit-Practices/blob/master/Math/Adhoc/FizzBuzz.py)      |   [InterviewBit – FizzBuzz](https://python5566.wordpress.com/2019/02/14/interviewbit-fizzbuzz/) |
 | [Power Of Two Integers](https://www.interviewbit.com/problems/power-of-two-integers/) | [Power Of Two Integers](https://github.com/woodyko3234/InterviewBit-Practices/blob/master/Math/Adhoc/Power_Of_Two_Integers.py) | [InterviewBit – Power Of Two Integers](https://python5566.wordpress.com/2019/02/14/interviewbit-power-of-two-integers/) |
-| [Random Attendance](https://www.interviewbit.com/problems/random-attendance/) |  TBD | TBD |
+| [Random Attendance](https://www.interviewbit.com/problems/random-attendance/) |  [Random Attendance](https://github.com/woodyko3234/InterviewBit-Practices/blob/master/Math/Adhoc/Random_Attendance.py) | [InterviewBit – Random Attendance](https://python5566.wordpress.com/2019/03/17/interviewbit-random-attendance/) |
 
 ### Base Conversion
 | Question        | Solution           | Explanation  |
@@ -51,4 +51,4 @@ Python programming practices on InterviewBit
 ### Array math
 | Question        | Solution           | Explanation  |
 | ------------- |:-------------:| -----:|
-| [Random Attendance](https://www.interviewbit.com/problems/random-attendance/) |  TBD | TBD |
+| [Random Attendance](https://www.interviewbit.com/problems/random-attendance/) |  [Random Attendance](https://github.com/woodyko3234/InterviewBit-Practices/blob/master/Math/Adhoc/Random_Attendance.py) | [InterviewBit – Random Attendance](https://python5566.wordpress.com/2019/03/17/interviewbit-random-attendance/) |

@@ -8,3 +8,4 @@ Hope you find some useful or inspiring and please feel free to let me know if th
 
 ## Part I : [Array](https://github.com/woodyko3234/InterviewBit-Practices/blob/master/Arrays/README.md)
 ## Part II: [Math](https://github.com/woodyko3234/InterviewBit-Practices/blob/master/Math/README.md)
+## Part III: [Binary Search](https://github.com/woodyko3234/InterviewBit-Practices/blob/master/Binary%20Search/README.md)

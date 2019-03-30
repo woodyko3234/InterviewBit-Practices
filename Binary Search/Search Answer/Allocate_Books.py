@@ -1,40 +1,28 @@
 class Solution:
-    # @param A : list of integers
-    # @param B : integer
-    # @return an integer
-    def books(self,A,B):
-        if(len(A)<B):
-            return -1
-        if(len(A)==B):
-            return max(A)
-        return self.findsol(A,B)
-
-    def findsol(self,A,B):
-        start=0
-        end=sum(A)
-        res=sys.maxsize
-        while(start<=end):
-            mid=int(start+(end-start)/2)
-            x=self.ispossible(mid,A,B)
-            #print(mid,x)
-            if(x==1):
-                res=min(mid,res)
-                end=mid-1
+	# @param A : list of integers
+	# @param B : integer
+	# @return an integer
+	def books(self, A, B):
+	    best = max(A)
+	    worst = sum(A)
+	    if B == 1: return worst
+	    elif B < 1 or B > len(A): return -1
+	    while best < worst:
+	        mid = (best + worst) // 2
+	        students = self.studentCounts(A, mid)
+	        if students > B:
+	            best = mid + 1
+	        else:
+	            worst = mid
+        return worst
+	    
+	def studentCounts(self, A, mid):
+	    students = 1
+	    pages = 0
+	    for p in A:
+	        if pages + p <= mid:
+	            pages += p
             else:
-                start=mid+1
-        return res
-    
-    def ispossible(self,x,A,B):
-        curmin=0
-        nos=1    #number of students required
-        for i in range(len(A)):
-            if(A[i]>x):
-                return 0
-            if(curmin+A[i]>x):
-                curmin=A[i]
-                nos+=1
-                if(nos>B):
-                    return 0
-            else:
-                curmin+=A[i]
-        return 1
+                students += 1
+                pages = p
+        return students

@@ -24,3 +24,15 @@ class Solution:
         if neg_check == 1:
             return d - r
         return r
+    #Editorial anwser
+    #def pow(self, x, n, d):
+        
+    #    res = 1 % d  # Cover case d == 1
+    #    while n > 0:
+    #        if n & 1:   # Odd?
+    #           res = (res * x) % d
+    #        x = x**2 % d
+    #        n >>= 1
+    #    return res
+            
+               

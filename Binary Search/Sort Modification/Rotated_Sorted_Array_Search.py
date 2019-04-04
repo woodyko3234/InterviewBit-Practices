@@ -18,7 +18,7 @@ class Solution:
                     else:
                         left = mid + 1
                 elif B < A[mid]:
-                    if A[right] < A[mid] and B < A[left]:
+                    if A[left] < A[mid] and B < A[left]:
                         left = mid+1
                     else:
                         right = mid

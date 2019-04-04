@@ -3,40 +3,32 @@ class Solution:
     # @param B : integer
     # @return an integer
     def search(self, A, B):
-        #brute force O(n)
-        #try:
-        #    return list(A).index(B)
-        #except:
-        #    return -1
-        begin = 0
-        end = len(A) - 1
-        
-        if end == -1: return end
-        
-        while begin <= end:
-            mid = int((begin + end) / 2)
-            if B > A[mid]:
-                if A[mid] > A[begin]: 
-                    #same secting: increasing
-                    begin = mid + 1
-                else: #A[mid] < A[end]
-                    if B > A[end]:
-                        #A[begin] > B > A[end]
-                        return -1
-                    elif B < A[end]:
-                        begin = mid + 1
+        l = len(A) #O(1)
+        left = 0
+        right = l - 1
+        while left < right:
+            pivot_in = False
+            if A[left] >= A[right]:
+                pivot_in = True
+            mid = (left+right)//2
+            if pivot_in:
+                if B > A[mid]:
+                    if A[right] > A[mid] and B > A[right]:
+                        right = mid
                     else:
-                        return end
-            elif B < A[mid]:
-                if A[mid] < A[end]: 
-                    #same secting: decreasing
-                    end = mid - 1
-                else: #A[mid] > A[begin]
-                    if B < A[end]:
-                        begin = mid + 1
-                    elif B > A[end]:
-                        end = mid - 1
+                        left = mid + 1
+                elif B < A[mid]:
+                    if A[right] < A[mid] and B < A[left]:
+                        left = mid+1
                     else:
-                        return end
-            else: return mid
+                        right = mid
+                else: return mid
+            else:
+                if B > A[right] or B < A[left]: break
+                if B > A[mid]:
+                    left = mid+1
+                elif B < A[mid]:
+                    right = mid
+                else:
+                    return mid
         return -1

@@ -26,5 +26,4 @@ Python programming practices on InterviewBit
 | Question        | Solution           | Explanation  |
 | ------------- |:-------------:| -----:|
 |[Rotated Sorted Array Search](https://www.interviewbit.com/problems/rotated-sorted-array-search/) | [Rotated Sorted Array Search](https://github.com/woodyko3234/InterviewBit-Practices/blob/master/Binary%20Search/Sort%20Modification/Rotated_Sorted_Array_Search.py) | [InterviewBit – Rotated Sorted Array Search](https://python5566.wordpress.com/2019/04/05/interviewbit-rotated-sorted-array-search/) |
-|[Median of Array](https://www.interviewbit.com/problems/median-of-array/) | [Median of Array](https://github.com/woodyko3234/InterviewBit-Practices/blob/master/Binary%20Search/Sort%20Modification/Median_of_Array.py) |
-[InterviewBit – Median of Array](https://python5566.wordpress.com/2019/04/09/interviewbit-median-of-array/) |
+|[Median of Array](https://www.interviewbit.com/problems/median-of-array/) | [Median of Array](https://github.com/woodyko3234/InterviewBit-Practices/blob/master/Binary%20Search/Sort%20Modification/Median_of_Array.py) | [InterviewBit – Median of Array](https://python5566.wordpress.com/2019/04/09/interviewbit-median-of-array/) |

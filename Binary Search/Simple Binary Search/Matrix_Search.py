@@ -5,46 +5,30 @@ class Solution:
     def searchMatrix(self, A, B):
         '''Implement binary search for particular row,
            then binary search for particular item in the row.'''
-        
         rows = len(A)
         cols = len(A[0])
-        if cols == 0 or rows == 0: return 0
-        
-        else:
-            target_row = self.binarySearchRow(A, B, rows, cols)
-            if target_row == -1: return 0
+        if B > A[-1][-1] or B < A[0][0]: return 0
+        low_r, high_r = 0, rows
+        low_c, high_c = 0, cols
+        while low_r <= high_r:
+            mid_r = (low_r+high_r) // 2
+            if B >= A[mid_r][0] and B <= A[mid_r][cols-1]:
+                pick_r = mid_r
+                break
+            elif B < A[mid_r][0]:
+                high_r = mid_r - 1
             else:
-                return self.binarySearchCol(A, B, target_row, cols)
-            
-        
-    
-    def binarySearchRow(self, A, B, rows, cols):
-        begin = 0
-        end = rows - 1
-        
-        while begin <= end:
-            mid = int((begin + end)/2)
-            if B > A[mid][cols-1]:
-                begin = mid + 1
-            elif B < A[mid][cols-1]:
-                if B < A[mid][0]:
-                    end = mid - 1
+                low_r = mid_r + 1
+        try:
+            pick_r
+            while low_c <= high_c:
+                mid_c = (low_c+high_c) // 2
+                if B == A[pick_r][mid_c]:
+                    return 1
+                elif B > A[pick_r][mid_c]:
+                    low_c = mid_c + 1
                 else:
-                    return mid
-            else:
-                return mid
-        return -1
-        
-    def binarySearchCol(self, A, B, target_row, cols):
-        begin = 0
-        end = cols - 1
-        
-        while begin <= end:
-            mid = int((begin + end)/2)
-            if B > A[target_row][mid]:
-                begin = mid + 1
-            elif B < A[target_row][mid]:
-                end = mid - 1
-            else:
-                return 1
+                    high_c = mid_c - 1
+        except: pass
         return 0
+                

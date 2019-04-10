@@ -12,7 +12,7 @@ class Solution:
         low_c, high_c = 0, cols
         while low_r < high_r:
             mid_r = (low_r+high_r) // 2
-            if B >= A[mid_r][0] and B <= A[mid_r][cols-1]:
+            if B >= A[mid_r][0] and B <= A[mid_r][-1]:
                 pick_r = mid_r
                 break
             elif B < A[mid_r][0]:

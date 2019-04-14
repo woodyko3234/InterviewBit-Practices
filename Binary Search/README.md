@@ -13,8 +13,8 @@ Python programming practices on InterviewBit
 ### Simple Binary Search
 | Question        | Solution           | Explanation  |
 | ------------- |:-------------:| -----:|
-|[Matrix Search](https://www.interviewbit.com/problems/matrix-search/) | [Matrix Search](https://github.com/woodyko3234/InterviewBit-Practices/blob/master/Binary%20Search/Simple%20Binary%20Search/Matrix_Search.py) | TBD |
-|[Search for a Range](https://www.interviewbit.com/problems/search-for-a-range/) | [Search for a Range](https://github.com/woodyko3234/InterviewBit-Practices/blob/master/Binary%20Search/Simple%20Binary%20Search/Search_for_a_Range.py) | TBD |
+|[Matrix Search](https://www.interviewbit.com/problems/matrix-search/) | [Matrix Search](https://github.com/woodyko3234/InterviewBit-Practices/blob/master/Binary%20Search/Simple%20Binary%20Search/Matrix_Search.py) | [InterviewBit -Matrix Search](https://python5566.wordpress.com/2019/04/11/interviewbit-matrix-search/) |
+|[Search for a Range](https://www.interviewbit.com/problems/search-for-a-range/) | [Search for a Range](https://github.com/woodyko3234/InterviewBit-Practices/blob/master/Binary%20Search/Simple%20Binary%20Search/Search_for_a_Range.py) | [InterviewBit – Search for a Range](https://python5566.wordpress.com/2019/04/12/interviewbit-search-for-a-range/) |
 |[Sorted Insert Position](https://www.interviewbit.com/problems/sorted-insert-position/) | [Sorted Insert Position](https://github.com/woodyko3234/InterviewBit-Practices/blob/master/Binary%20Search/Simple%20Binary%20Search/Sorted_Insert_Position.py) | TBD |
 
 ### Search Step Simulation

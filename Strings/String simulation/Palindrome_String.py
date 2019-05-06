@@ -4,8 +4,8 @@ class Solution:
     def isPalindrome(self, A):
         for c in set(A):
             if c.isalnum(): continue
-            else: A = A.replace(c, " ")
-        test_str = "".join(A.split(" ")).lower()
+            else: A = A.replace(c, "")
+        test_str = A.lower()
         
         l = len(test_str)
         if l % 2 == 0:

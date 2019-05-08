@@ -1,27 +1,22 @@
 class Solution:
-    # @param A : integer
-    # @return a strings
-    def countAndSay(self, A):
-        if A <= 1:
-            return str(A)
-        elif A == 2:
-            return '11'
-        else:
-            prior = '11'
-            for i in range(3, A+1):
-                next_count = []
-                count = 0
-                for j in range(len(prior)):
-                    if j - 1 < 0 or prior[j] == prior[j-1]: pass
-                    
-                    elif prior[j] != prior[j-1]:
-                        next_count.append(str(count))
-                        count = 0
-                        next_count.append(prior[j-1])
-                
-                    count += 1
-                    if j == (len(prior) - 1):
-                        next_count.append(str(count))
-                        next_count.append(prior[j])
-                prior = ''.join(next_count)
-        return prior
+	# @param A : integer
+	# @return a string
+	def countAndSay(self, A):
+	    if A == 0: return ""
+	    elif A < 0 or A == 1: return "1"
+	    current = "1"
+	    for i in range(1, A):
+	        counts, temp = 0, ""
+	        temp_s = ""
+	        for w in current:
+	            if temp == w: counts += 1
+	            elif counts == 0: 
+	                temp = w
+	                counts = 1
+	            else:
+	                temp_s = temp_s + str(counts) + temp
+	                temp = w
+	                counts = 1
+	        temp_s = temp_s + str(counts) + temp
+	        current = temp_s
+	    return current

@@ -19,12 +19,11 @@ class Solution:
                 j += 1
                 lps[i] = j
                 i += 1
+            elif j != 0:
+                j = lps[j - 1]
             else:
-                if j != 0:
-                    j = lps[j - 1]
-                else:
-                    lps[i] = 0
-                    i += 1
+                lps[i] = 0
+                i += 1
         res_num = lps[-1]
         if m % (m-res_num) == 0: return m-res_num
         else: return m

@@ -1,20 +1,22 @@
 class Solution:
     # @param A : string
     # @return an integer
-    def solve(self, A):
-        rever_str = A[::-1]
-        remove_count = 0
-        while remove_count < len(A):
-            idx = 0
-            fits = True
-            for char in rever_str[remove_count:]:
-                if A[idx] != char:
-                    fits = False
-                    break
-                idx += 1
-            if fits:
-                return remove_count
+    def findLPS(self, s):
+        n = len(s)
+        rev = s[-1::-1]
+        lps = [0] * (n+1)
+        i, j = 0,0
+        while i < n:
+            if rev[i] == s[j]:
+                j += 1
+                i += 1
+                lps[i] = j
+            elif j != 0:
+                j = lps[j-1]
             else:
-                remove_count += 1
-            
-        return remove_count
+                lps[i] = 0
+                i += 1
+        return lps[-1]
+                
+    def solve(self, A):
+        return len(A) - self.findLPS(A)

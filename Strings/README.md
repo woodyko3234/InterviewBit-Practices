@@ -5,4 +5,18 @@ Python programming practices on InterviewBit
 ### String simulation
 | Question        | Solution           | Explanation  |
 | ------------- |:-------------:| -----:|
-| | |
+| [Palindrome String](https://www.interviewbit.com/problems/palindrome-string/)| [Palindrome String](https://github.com/woodyko3234/InterviewBit-Practices/blob/master/Strings/String%20simulation/Palindrome_String.py) | [InterviewBit – Palindrome String](https://python5566.wordpress.com/2019/05/06/interviewbit-palindrome-string/) |
+| [Longest Common Prefix](https://www.interviewbit.com/problems/longest-common-prefix/) | [Longest Common Prefix](https://github.com/woodyko3234/InterviewBit-Practices/blob/master/Strings/String%20simulation/Longest_Common_Prefix.py) | [InterviewBit – Longest Common Prefix](https://python5566.wordpress.com/2019/05/08/interviewbit-longest-common-prefix/) |
+| [Count And Say](https://www.interviewbit.com/problems/count-and-say/) |[Count And Say](https://github.com/woodyko3234/InterviewBit-Practices/blob/master/Strings/String%20simulation/Count_And_Say.py) | [InterviewBit – Count And Say](https://python5566.wordpress.com/2019/05/08/interviewbit-count-and-say/) |
+
+### Programming
+| Question        | Solution           | Explanation  |
+| ------------- |:-------------:| -----:|
+|[Amazing Subarrays](https://www.interviewbit.com/problems/amazing-subarrays/) | [Amazing Subarrays](https://github.com/woodyko3234/InterviewBit-Practices/blob/master/Strings/Programming/Amazing_Subarrays.py) | [InterviewBit – Amazing Subarrays](https://python5566.wordpress.com/2019/05/08/interviewbit-amazing-subarrays/) |
+|[Stringoholics](https://www.interviewbit.com/problems/stringoholics/) | [Stringoholics](https://github.com/woodyko3234/InterviewBit-Practices/blob/master/Strings/Programming/Stringoholics.py) | [InterviewBit – Stringoholics](https://python5566.wordpress.com/2019/05/10/interviewbit-stringoholics/) |
+
+### String tricks
+| Question        | Solution           | Explanation  |
+| ------------- |:-------------:| -----:|
+|[Minimum Characters required to make a String Palindromic](https://www.interviewbit.com/problems/minimum-characters-required-to-make-a-string-palindromic/)| [Minimum Characters required to make a String Palindromic](https://github.com/woodyko3234/InterviewBit-Practices/blob/master/Strings/String%20tricks/Minimum_Characters_required_to_make_a_String_Palindromic.py) | [InterviewBit – Minimum Characters required to make a String Palindromic](https://python5566.wordpress.com/2019/05/13/interviewbit-minimum-characters-required-to-make-a-string-palindromic/) |
+|[]()|[]()|[]()|

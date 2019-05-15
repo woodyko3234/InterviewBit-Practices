@@ -19,4 +19,15 @@ Python programming practices on InterviewBit
 | Question        | Solution           | Explanation  |
 | ------------- |:-------------:| -----:|
 |[Minimum Characters required to make a String Palindromic](https://www.interviewbit.com/problems/minimum-characters-required-to-make-a-string-palindromic/)| [Minimum Characters required to make a String Palindromic](https://github.com/woodyko3234/InterviewBit-Practices/blob/master/Strings/String%20tricks/Minimum_Characters_required_to_make_a_String_Palindromic.py) | [InterviewBit – Minimum Characters required to make a String Palindromic](https://python5566.wordpress.com/2019/05/13/interviewbit-minimum-characters-required-to-make-a-string-palindromic/) |
-|[]()|[]()|[]()|
+|[Longest Palindromic Substring](https://www.interviewbit.com/problems/longest-palindromic-substring/)|[Longest Palindromic Substring](https://github.com/woodyko3234/InterviewBit-Practices/blob/master/Strings/String%20tricks/Longest_Palindromic_Substring.py)|[InterviewBit – Longest Palindromic Substring](https://python5566.wordpress.com/2019/05/15/interviewbit-longest-palindromic-substring/)|
+
+### String search
+| Question        | Solution           | Explanation  |
+| ------------- |:-------------:| -----:|
+|[Minimum Characters required to make a String Palindromic](https://www.interviewbit.com/problems/minimum-characters-required-to-make-a-string-palindromic/)| [Minimum Characters required to make a String Palindromic](https://github.com/woodyko3234/InterviewBit-Practices/blob/master/Strings/String%20tricks/Minimum_Characters_required_to_make_a_String_Palindromic.py) | [InterviewBit – Minimum Characters required to make a String Palindromic](https://python5566.wordpress.com/2019/05/13/interviewbit-minimum-characters-required-to-make-a-string-palindromic/) |
+|[Implement StrStr](https://www.interviewbit.com/problems/implement-strstr/)|[Implement StrStr](https://github.com/woodyko3234/InterviewBit-Practices/blob/master/Strings/String%20search/StrStr_KMP.py)|[InterviewBit – Implement StrStr](https://python5566.wordpress.com/2019/05/15/interviewbit-implement-strstr/)|
+
+### String parsing
+| Question        | Solution           | Explanation  |
+| ------------- |:-------------:| -----:|
+|[Minimum Characters required to make a String Palindromic](https://www.interviewbit.com/problems/minimum-characters-required-to-make-a-string-palindromic/)| [Minimum Characters required to make a String Palindromic](https://github.com/woodyko3234/InterviewBit-Practices/blob/master/Strings/String%20tricks/Minimum_Characters_required_to_make_a_String_Palindromic.py) | [InterviewBit – Minimum Characters required to make a String Palindromic](https://python5566.wordpress.com/2019/05/13/interviewbit-minimum-characters-required-to-make-a-string-palindromic/) |

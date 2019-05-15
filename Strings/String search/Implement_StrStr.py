@@ -6,5 +6,5 @@ class Solution:
         if not haystack or not needle: return -1
         
         dividor = haystack.split(needle)
-        if len(dividor) == 1: return -1
+        if len(dividor[0]) == len(haystack): return -1
         else: return len(dividor[0])

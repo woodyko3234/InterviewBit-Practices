@@ -23,9 +23,7 @@ class Solution:
                     return 0
                 dotEncountered = True
                 i += 1
-                if i >= n:
-                    return 0
-                elif A[i] == 'e':
+                if i >= n or A[i] == 'e':
                     return 0
             elif A[i] == 'e':
                 if eEncountered:
@@ -33,8 +31,10 @@ class Solution:
                 eEncountered = True
                 dotEncountered = True
                 i += 1
-                if i < n and (A[i] == '-' or A[i] == '+'):
-                    i += 1
+                if i >= n: return 0
+                elif (A[i] == '-' or A[i] == '+'):
+                    if i+1 < n: i += 1
+                    else: return 0
             else:
                 return 0
         return 1

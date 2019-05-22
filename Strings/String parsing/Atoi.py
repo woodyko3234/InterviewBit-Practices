@@ -18,6 +18,5 @@ class Solution:
                         output = output * 10 + int(i[j])
                         if output > (2**31 - 1): return 2**31 - 1
                 else: return output
-            if output != 0: return output
-            else: return 0
+            return output
         return 0    

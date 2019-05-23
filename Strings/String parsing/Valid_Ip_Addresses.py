@@ -9,7 +9,6 @@ class Solution:
     
     def restoreIpAddresses(self, A):
         output = []
-        temp = []
         l = len(A)
         if l > 12 or l < 4 or (not A.isdigit()): return []
         #range from 4 to 12

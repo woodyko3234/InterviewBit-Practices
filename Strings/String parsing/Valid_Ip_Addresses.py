@@ -12,15 +12,7 @@ class Solution:
         temp = []
         l = len(A)
         if l > 12 or l < 4 or (not A.isdigit()): return []
-        elif l == 12:
-            for i in range(0, 12, 3):
-                temp.append(int(A[i:i+3]))
-            for j in temp:
-                if j < 100 or j > 255:
-                    return []
-            output.append(".".join(map(str, temp)))
-            return output
-        #range from 4 to 11
+        #range from 4 to 12
         else:
             for i in range(1, l - 2):
                 if i > 3: break #do not generate irrelevent combinations

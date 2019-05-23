@@ -3,7 +3,7 @@ class Solution:
     # @return a list of strings
     def addressCheck(self, ip):
         for node in ip.split("."):
-            if len(node) > 3 or int(node) > 255 or (len(node) > 1 and node[0] == '0'):
+            if int(node) > 255:
                 return False
         return True
     
@@ -24,7 +24,7 @@ class Solution:
                     elif l - j > 6: continue #avoid generating items including more than 3 char
                     for k in range(j+1, l):
                         if A[j] == '0' and k > j+1: break #remove "0??" conditions
-                        elif A[k] == 0 and (l - k > 1): break #remove "0??" conditions
+                        elif A[k] == 0 and (l - k > 1): continue #remove "0??" conditions
                         elif k - j > 3: break #do not generate irrelevent combinations
                         elif l - k > 3: continue #avoid generating items including more than 3 char
                         ip = A[:i] + '.'

@@ -10,3 +10,4 @@ Hope you find some useful or inspiring and please feel free to let me know if th
 ## Part II: [Math](https://github.com/woodyko3234/InterviewBit-Practices/blob/master/Math/README.md)
 ## Part III: [Binary Search](https://github.com/woodyko3234/InterviewBit-Practices/blob/master/Binary%20Search/README.md)
 ## Part IV: [Strings](https://github.com/woodyko3234/InterviewBit-Practices/blob/master/Strings/README.md)
+## Part V: [Bit Manipulation](https://github.com/woodyko3234/InterviewBit-Practices/blob/master/Bit%20Manipulation/README.md)

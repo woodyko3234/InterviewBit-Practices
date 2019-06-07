@@ -54,6 +54,6 @@ Python programming practices on InterviewBit
 ### Pretty print
 | Question        | Solution           | Explanation  |
 | ------------- |:-------------:| -----:|
-|[Justified Text](https://www.interviewbit.com/problems/justified-text/)|[Justified Text]()|[]()|
-|[Zigzag String](https://www.interviewbit.com/problems/zigzag-string/)|[Zigzag String]()|[]()|
-|[Pretty Json](https://www.interviewbit.com/problems/pretty-json/)|[Pretty Json]()|[]()|
+|[Justified Text](https://www.interviewbit.com/problems/justified-text/)|[Justified Text](https://github.com/woodyko3234/InterviewBit-Practices/blob/master/Strings/Pretty%20print/Justified_Text.py)|[InterviewBit – Justified Text](https://python5566.wordpress.com/2019/06/06/interviewbit-justified-text/)|
+|[Zigzag String](https://www.interviewbit.com/problems/zigzag-string/)|[Zigzag String](https://github.com/woodyko3234/InterviewBit-Practices/blob/master/Strings/Pretty%20print/Zigzag_String.py)|[InterviewBit – Zigzag String](https://python5566.wordpress.com/2019/06/07/interviewbit-zigzag-string/)|
+|[Pretty Json](https://www.interviewbit.com/problems/pretty-json/)|[Pretty Json](https://github.com/woodyko3234/InterviewBit-Practices/blob/master/Strings/Pretty%20print/Pretty_Json.py)|[InterviewBit – Pretty JSON](https://python5566.wordpress.com/2019/06/07/interviewbit-pretty-json/)|

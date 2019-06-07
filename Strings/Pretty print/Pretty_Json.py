@@ -1,37 +1,29 @@
 class Solution:
-    # @param A : string
-    # @return a list of strings
-    def prettyJSON(self, A):
-        prettierJson = []
-        indentation = 0
-        
-        begin = 0
-        for i in range(len(A)):
-            if A[i] == ' ' and begin == i: 
-                begin = i + 1
-            elif A[i] == '{' or A[i] == '[':
-                if i != begin:
-                    prettierJson.append(('\t' * indentation) + A[begin: i])
-
-                prettierJson.append(('\t' * indentation) + A[i])
-                begin = i + 1
-                indentation += 1
-                
-            elif A[i] == '}' or A[i] == ']':
-                if i != begin:
-                    prettierJson.append(('\t' * indentation) + A[begin: i])
-                
-                indentation -= 1
-                if i+1 < len(A) and A[i+1] == ',':
-                    prettierJson.append(('\t' * indentation) + A[i:i+2])
-                    i += 1
-                else:
-                    prettierJson.append(('\t' * indentation) + A[i])
-                begin = i + 1
-            
-            elif A[i] == ',' and i >= begin:
-                prettierJson.append(('\t' * indentation) + A[begin: i+1])
-                begin = i + 1
-                
-        return prettierJson
-                    
+	# @param A : string
+	# @return a list of strings
+	def prettyJSON(self, A):
+	    prettier = []
+	    indentNum = 0
+	    temp = ""
+	    for i in A:
+	        if i == " ": continue
+	        temp += i
+	        if (i == '[' or i == '{'):
+	            if temp != i:
+	                prettier.append("\t" * indentNum + temp[:-1])
+                    temp = i
+	            prettier.append("\t" * indentNum + temp)
+	            indentNum += 1
+	            temp = ""
+	        elif i == ',':
+	            prettier.append("\t" * indentNum + temp)
+	            temp = ""
+	        elif i == ']' or i == '}':
+	            if temp != i:
+	                prettier.append("\t" * indentNum + temp[:-1])
+	                temp = i
+	            indentNum -= 1
+	            #prettier.append("\t" * indentNum + temp)
+	            #temp = ""
+	    prettier.append("\t" * indentNum + temp)
+	    return prettier

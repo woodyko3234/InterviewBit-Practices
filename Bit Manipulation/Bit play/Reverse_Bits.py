@@ -2,10 +2,10 @@ class Solution:
     # @param A : unsigned integer
     # @return an unsigned integer
     def reverse(self, A):
-        byte = list(bin(A)[2:])
-        byte = ([0] * (32 - len(byte))) + byte
-        reverseVal = 0
-        for i in range(31,-1,-1):
-            if int(byte[i]) == 1:
-                reverseVal += 2**(i)
-        return reverseVal
+        reverse = [0] * 32
+        reversedBin = bin(A)[:1:-1]
+        output = 0
+        for i in range(len(reversedBin)):
+            reverse[i] = int(reversedBin[i])
+            output += reverse[i] * (2**(31 - i))
+        return output

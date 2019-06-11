@@ -11,7 +11,7 @@ class Solution:
 	        divisor <<= 1
 	        multiples <<= 1
 	    result = 0
-	    while divisor >= 1 and multiples >= 1:
+	    while multiples >= 1:
 	        if dividend >= divisor:
 	            dividend -= divisor
 	            result += multiples

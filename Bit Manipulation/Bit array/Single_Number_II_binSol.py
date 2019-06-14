@@ -2,7 +2,7 @@ class Solution:
 	# @param A : tuple of integers
 	# @return an integer
 	def singleNumber(self, A):
-	    max_len = max([len(bin(i)[2:]) for i in A])
+	    max_len = len(bin(max(A))[2:])
 	    output = 0
 	    for i in range(max_len):
 	        x = 1 << i

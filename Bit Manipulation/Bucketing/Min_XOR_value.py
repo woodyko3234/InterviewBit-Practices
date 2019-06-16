@@ -1,12 +1,16 @@
-#Since s[i] ^ s[i - 2] > s[i] ^ s[i-1] / s[i+1] ^ s[i-1]
-#It is possible to implement pair check
 class Solution:
     # @param A : list of integers
     # @return an integer
     def findMinXor(self, A):
-        s = sorted(A)
-        minn = s[0]^s[1]
-        for i in range(1,len(A)):
-            if(s[i]^s[i-1]<minn):
-                minn = s[i]^s[i-1]
-        return minn
+        minXOR = float('inf')
+        ##O(n^2) method
+        #for i in range(len(A)-1):
+        #    for j in range(i+1, len(A)):
+        #        if A[i] ^ A[j] < minXOR:
+        #            minXOR = A[i] ^ A[j]
+        ##O(n logn) method
+        A = sorted(A)
+        for i in range(len(A) - 1):
+            if A[i] ^ A[i+1] < minXOR:
+                minXOR = A[i] ^ A[i+1]
+        return minXOR

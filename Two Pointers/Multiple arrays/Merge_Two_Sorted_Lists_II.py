@@ -1,24 +1,18 @@
 class Solution:
     # @param A : list of integers
     # @param B : list of integers
-    # @return A modified after the merge
     def merge(self, A, B):
-        m = len(A)
-        n = len(B)
-        if m == 0: return B
-        elif n == 0: return A
-        
-        i, j = 0, 0 # idx in A and B
-        C = []
-        while i < m and j < n:
-            if A[i] > B[j]:
-                C.append(B[j])
-                j += 1
-            else: 
-                C.append(A[i])
+        n, m = len(A), len(B)
+        i, j = 0,0
+        new_A = []
+        while i < n and j < m:
+            if A[i] <= B[j]:
+                new_A.append(A[i])
                 i += 1
-        if j < n:
-            C = C + B[j:]
-        elif i < m:
-            C = C + A[i:]
-        return C
+            else:
+                new_A.append(B[j])
+                j += 1
+        if i == n:
+            print(" ".join(map(str, new_A + B[j:]))+" ")
+        else:
+            print(" ".join(map(str, new_A + A[i:]))+" ")

@@ -1,7 +1,7 @@
 # InterviewBit-Practices
 Python programming practices on InterviewBit
 
-# Bit Manipulation
-### Bucketing
+# Two Pointers
+### Multiple arrays
 | Question        | Solution           | Explanation  |
 | ------------- |:-------------:| -----:|

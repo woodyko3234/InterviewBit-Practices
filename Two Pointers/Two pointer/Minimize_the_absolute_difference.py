@@ -1,37 +1,17 @@
 class Solution:
-    # @param A : list of integers
-    # @param B : list of integers
-    # @param C : list of integers
-    # @return an integer
-    def solve(self, A, B, C):
-        '''
-        find a, b, c in A, B, C (sorted arrays), respectively
-        that a,b,c must be as close as possible
-        i.e. max(abs(A[a] - B[b]), abs(B[b] - C[c]), abs(C[c] - A[a]))
-        '''
-        #http://www.geeksforgeeks.org/find-three-closest-elements-from-given-three-sorted-arrays/
-        p = len(A)
-        q = len(B)
-        r = len(C)
-        min_diff = float('inf')
-    
-        #set beginning indexes for A, B, and C
-        i = 0
-        j = 0
-        k = 0
-        while i < p and j < q and k < r:
-            minimum = min(A[i], min(B[j], C[k]))
-            maximum = max(A[i], max(B[j], C[k]))
-            #no need apply abs
-            if (maximum - minimum) < min_diff:
-                res_i = i 
-                res_j = j
-                res_k = k
-                min_diff = maximum - minimum
-            if min_diff == 0: return min_diff
-            if minimum == A[i]:
-                i += 1
-            elif minimum == B[j]:
-                j += 1
-            else: k += 1
-        return min_diff
+	# @param A : list of integers
+	# @param B : list of integers
+	# @param C : list of integers
+	# @return an integer
+	def solve(self, A, B, C):
+	    n,m,l = len(A), len(B), len(C)
+	    i, j, k = 0,0,0
+	    diff = 2**31 - 1
+	    while i < n and j < m and k < l and diff > 0:
+	        maxCurr, minCurr = max(A[i], B[j], C[k]), min(A[i], B[j], C[k])
+	        if abs(maxCurr - minCurr) < diff:
+	            diff = abs(maxCurr - minCurr)
+	        if A[i] == minCurr: i += 1
+	        elif B[j] == minCurr: j += 1
+	        else: k += 1
+	    return diff

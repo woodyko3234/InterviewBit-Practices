@@ -1,25 +1,21 @@
 class Solution:
-    # @param S : list of integers
-    # @param target : integer
+    # @param A : list of integers
+    # @param B : integer
     # @return an integer
-    def threeSumClosest(self, S, target):
-        n = len(S)
-        if n < 3: return None #no valid answer
-        elif n == 3: return sum(S) #no option
-        S.sort()
-        first = 0
-        last = n-1
-        minDiff = float('inf')
-        while first < (last-1):
-            for i in range(first+1, last):
-                newSum = S[first] + S[i] + S[last]
-                if newSum == target: return target
-                elif abs(newSum - target) < abs(newDiff < minDiff:
-                    minDiff = newDiff
-                    bestNow = newSum
-            cur_sum = S[first] + S[first + 1] + S[last]
-            if cur_sum > target:
-                last -= 1
-            else:
-                first += 1
-        return bestNow
+    def threeSumClosest(self, A, B):
+        if len(A) < 3: return None
+        elif len(A) == 3: return sum(A)
+        sortA, n = sorted(A), len(A)
+        closest = float("inf")
+        for second in range(1, n-1):
+            first, last = 0, n - 1
+            curDiff = B - sortA[second]
+            while first < second and last > second:
+                if abs(sum([sortA[first], sortA[second], sortA[last]]) - B) < abs(closest - B):
+                    closest = sum([sortA[first], sortA[second], sortA[last]])
+                if sortA[first]+sortA[last] < curDiff:
+                    first += 1
+                elif sortA[first]+sortA[last] > curDiff:
+                    last -= 1
+                else: return closest
+        return closest

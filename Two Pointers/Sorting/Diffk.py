@@ -23,6 +23,6 @@ class Solution:
 	            else: i += 1
 	    ###O(n^2) method
 	    #for i in range(n-1):
-        #    for j in range(i+1, n):
-        #        if abs(A[i] - A[j]) == abs(B): return 1
+            #    for j in range(i+1, n):
+            #        if abs(A[i] - A[j]) == abs(B): return 1
         return 0

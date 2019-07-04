@@ -3,13 +3,17 @@ class Solution:
     # @return an integer
     def removeDuplicates(self, A):
         n = len(A)
-        if n <= 2: return n
-    
-        end = 1
-        for i in range(2, n):
-            if A[i] == A[end-1]: pass
+        to_update = 0
+        show_nd = False
+        for i in range(1, n):
+            if A[i] == A[to_update] and show_nd == False:
+                A[to_update+1] = A[i]
+                show_nd = True
+                to_update += 1
+            elif A[i] == A[to_update] and show_nd == True: continue
             else:
-                A[end+1] = A[i]
-                end += 1
-        A = A[:end+1]
-        return end+1
+                A[to_update+1] = A[i]
+                to_update += 1
+                show_nd = False
+        A = A[:to_update+1]
+        return len(A)        

@@ -3,12 +3,10 @@ class Solution:
     # @param B : integer
     # @return an integer
     def removeElement(self, A, B):
-        n = len(A)
-        if B not in A: return n
-        else:
-            end = 0
-            for i in range(n):
-                if A[i] != B:
-                    A[end] = A[i]
-                    end += 1
-        return len(A[:end])
+        n, curr = len(A), 0
+        for i in range(n):
+            if A[i] != B:
+                A[curr] = A[i]
+                curr += 1
+        A = A[:curr]
+        return curr

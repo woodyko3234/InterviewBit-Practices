@@ -7,7 +7,7 @@ class Solution:
         n, m, l = len(A), len(B), len(C)
         i, j, k = 0,0,0
         min_max = float("inf")
-        while i < n and j < m and k < l:
+        while i < n and j < m and k < l and min_max > 0:
             comb = [A[i], B[j], C[k]]
             cur_min = min(comb)
             cur_diff = max(comb) - cur_min

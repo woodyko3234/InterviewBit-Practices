@@ -1,33 +1,29 @@
 # Definition for singly-linked list.
 # class ListNode:
-#     def __init__(self, x):
-#         self.val = x
-#         self.next = None
+#    def __init__(self, x):
+#        self.val = x
+#        self.next = None
 
-
-'''
-build another linked list backwards
-'''
 class Solution:
     # @param A : head node of linked list
     # @return an integer
-    def linkedListBack(self, A):
-        cur = ListNode(A.val)
-        prev = None
-        fur = A
-        while fur != None:
-            cur, fur  = ListNode(fur.val), fur.next
-            cur.next = prev
-            prev = cur
-
-        return cur
-    
     def lPalin(self, A):
-        cur = self.linkedListBack(A)
-        while A != None and cur != None:
-            if A.val == cur.val:
-                A = A.next
-                cur = cur.next
-            else:
-                return 0
+        n = 0
+        curr = A
+        while curr:
+            n += 1
+            curr = curr.next
+        curr = A
+        revll = None
+        for i in range(n//2):
+            nextn = curr.next
+            curr.next = revll
+            revll = curr
+            curr = nextn
+        if n % 2 == 1:
+            curr = curr.next
+        for i in range(n//2):
+            if curr.val != revll.val: return 0
+            curr = curr.next
+            revll = revll.next
         return 1

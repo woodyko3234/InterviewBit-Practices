@@ -26,4 +26,4 @@ class Solution:
 	            if curr.val == output.val or dupBool == True: pass
 	            else: output.next = ListNode(curr.val)
 	        curr = curr.next
-	    return head.next #the very next node to head is the truely heading node
+	    return head.next #the very next node to head is the truly heading node

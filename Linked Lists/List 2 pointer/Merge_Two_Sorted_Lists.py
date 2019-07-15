@@ -25,12 +25,12 @@ class Solution:
 	            currB = currB.next
 	        else:
 	            if merged:
-                    merged.next = ListNode(currA.val)
-                    merged = merged.next
-                else:
-                    merged = ListNode(currA.val)
-                    head = merged
-                currA = currA.next
+                        merged.next = ListNode(currA.val)
+                        merged = merged.next
+                    else:
+                        merged = ListNode(currA.val)
+                        head = merged
+                    currA = currA.next
 	    if currA: merged.next = currA
 	    else: merged.next = currB
 	    return head

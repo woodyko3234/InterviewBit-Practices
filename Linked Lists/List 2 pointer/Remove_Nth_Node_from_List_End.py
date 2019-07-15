@@ -19,8 +19,6 @@ class Solution:
         while curr:
             if i != toDrop:
                 i += 1
-            elif B == 1 and i == n - 1:
-                curr.next = None
             else:
                 curr.next = curr.next.next
                 break

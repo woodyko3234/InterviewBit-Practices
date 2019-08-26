@@ -12,14 +12,12 @@ class Solution:
         head = ListNode(0)
         curr = head
         while restLL:
-            currCom = restLL.val
-            if addOne:
-                currCom += 1
+            if restLL.val < 9 or not addOne:
+                curr.next = ListNode(restLL.val + addOne)
                 addOne = False
-            if currCom > 9:
-                addOne = True
-                currCom -= 10
-            curr.next = ListNode(currCom)
+                curr.next.next = restLL.next
+                break
+            else: curr.next = ListNode(0)
             #Push
             curr = curr.next
             restLL = restLL.next

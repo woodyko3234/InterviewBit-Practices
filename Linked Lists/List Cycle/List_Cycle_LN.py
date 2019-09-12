@@ -17,9 +17,8 @@ class Solution:
                 return None
             onex = onex.next
             if twox == onex: break
-        curr = A
-        while curr.next:
-            prev = curr
-            curr = curr.next
-            prev.next = None
-        return curr
+        onex = A
+        while onex != twox:
+            onex = onex.next
+            twox = twox.next
+        return onex

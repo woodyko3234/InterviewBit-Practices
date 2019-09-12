@@ -13,3 +13,4 @@ Hope you find some useful or inspiring and please feel free to let me know if th
 ## Part V: [Bit Manipulation](https://github.com/woodyko3234/InterviewBit-Practices/blob/master/Bit%20Manipulation/README.md)
 ## Part VI: [Two Pointers](https://github.com/woodyko3234/InterviewBit-Practices/blob/master/Two%20Pointers/README.md)
 ## Part VII: [Linked Lists](https://github.com/woodyko3234/InterviewBit-Practices/tree/master/Linked%20Lists/README.md)
+## Part VIII: [Stacks And Queues](https://github.com/woodyko3234/InterviewBit-Practices/blob/master/Stacks%20And%20Queues/README.md)

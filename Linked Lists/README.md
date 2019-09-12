@@ -27,10 +27,21 @@ Python programming practices on InterviewBit
 |[Reverse Link List II](https://www.interviewbit.com/problems/reverse-link-list-ii/)|[Reverse Link List II](https://github.com/woodyko3234/InterviewBit-Practices/blob/master/Linked%20Lists/List%20trick/Reverse_Link_List_II.py)|[InterviewBit – Reverse Link List II](https://python5566.wordpress.com/2019/08/08/interviewbit-reverse-link-list-ii/)|
 |[Reorder List](https://www.interviewbit.com/problems/reorder-list/)|[Reorder List](https://github.com/woodyko3234/InterviewBit-Practices/blob/master/Linked%20Lists/List%20trick/Reorder_List.py)|[InterviewBit – Reorder List](https://python5566.wordpress.com/2019/08/08/interviewbit-reorder-list/)|
 
+### Pointer move
+| Question        | Solution           | Explanation  |
+| ------------- |:-------------:| -----:|
+|[K reverse linked list](https://www.interviewbit.com/problems/k-reverse-linked-list/)|[K reverse linked list](https://github.com/woodyko3234/InterviewBit-Practices/blob/master/Linked%20Lists/Pointer%20move/K_reverse_linked_list.py)|[InterviewBit – K reverse linked list](https://python5566.wordpress.com/2019/08/09/interviewbit-k-reverse-linked-list/)|
+|[Swap List Nodes in pairs](https://www.interviewbit.com/problems/swap-list-nodes-in-pairs/)|[Swap List Nodes in pairs](https://github.com/woodyko3234/InterviewBit-Practices/blob/master/Linked%20Lists/Pointer%20move/Swap_List_Nodes_in_pairs.py)|[InterviewBit – Swap List Nodes in pairs](https://python5566.wordpress.com/2019/08/09/interviewbit-swap-list-nodes-in-pairs/)|
+|[Reverse Link List II](https://www.interviewbit.com/problems/reverse-link-list-ii/)|[Reverse Link List II](https://github.com/woodyko3234/InterviewBit-Practices/blob/master/Linked%20Lists/List%20trick/Reverse_Link_List_II.py)|[InterviewBit – Reverse Link List II](https://python5566.wordpress.com/2019/08/08/interviewbit-reverse-link-list-ii/)|
+|[Reorder List](https://www.interviewbit.com/problems/reorder-list/)|[Reorder List](https://github.com/woodyko3234/InterviewBit-Practices/blob/master/Linked%20Lists/List%20trick/Reorder_List.py)|[InterviewBit – Reorder List](https://python5566.wordpress.com/2019/08/08/interviewbit-reorder-list/)|
 
-|[]()|[]()|[]()|
-|[]()|[]()|[]()|
-|[]()|[]()|[]()|
-|[]()|[]()|[]()|
-|[]()|[]()|[]()|
-|[]()|[]()|[]()|
+### List cycle
+| Question        | Solution           | Explanation  |
+| ------------- |:-------------:| -----:|
+|[List Cycle](https://www.interviewbit.com/problems/list-cycle/)|[List Cycle](https://github.com/woodyko3234/InterviewBit-Practices/blob/master/Linked%20Lists/List%20Cycle/List_Cycle_LN.py)|[InterviewBit – List Cycle](https://python5566.wordpress.com/2019/09/12/interviewbit-list-cycle/)|
+
+### List math
+| Question        | Solution           | Explanation  |
+| ------------- |:-------------:| -----:|
+|[Add Two Numbers as Lists](https://www.interviewbit.com/problems/add-two-numbers-as-lists/)|[Add Two Numbers as Lists](https://github.com/woodyko3234/InterviewBit-Practices/blob/master/Linked%20Lists/List%20Math/Add_Two_Numbers_as_Lists.py)|[InterviewBit – Add Two Numbers as Lists](https://python5566.wordpress.com/2019/08/26/interviewbit-add-two-numbers-as-lists/)|
+|[List Cycle](https://www.interviewbit.com/problems/list-cycle/)|[List Cycle](https://github.com/woodyko3234/InterviewBit-Practices/blob/master/Linked%20Lists/List%20Cycle/List_Cycle_LN.py)|[InterviewBit – List Cycle](https://python5566.wordpress.com/2019/09/12/interviewbit-list-cycle/)|

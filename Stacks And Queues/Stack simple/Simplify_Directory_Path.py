@@ -1,7 +1,7 @@
 class Solution:
-	# @param A : string
-	# @return a strings
-	def simplifyPath(self, A):
+    # @param A : string
+    # @return a strings
+    def simplifyPath(self, A):
         roots = A.split("/")
         initial = []
         ignoreN = 0

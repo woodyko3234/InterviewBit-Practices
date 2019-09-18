@@ -6,25 +6,19 @@ class Solution:
         Trapped: Both left and right sides are higher than it
         """
         if len(A) <= 2: return 0
-        lefts, rights = [], list(A[::-1])
+        lefts, rights = [A[0]], list(A[::-1])
         leftn = rights.pop()
         curr = rights.pop()
         rightn = max(rights)
         trapped = 0
         while rights:
-            lefts = self.checkSide(lefts, leftn)
-            leftn = lefts[0]
             if curr < leftn and curr < rightn:
                 trapped += min(leftn, rightn) - curr
-            leftn = curr
+            #push n update
+            if curr > lefts[0]:
+                lefts[0] = curr
+            leftn = lefts[0]
             curr = rights.pop()
             if curr == rightn and rights:
                 rightn = max(rights)
         return trapped
-    def checkSide(self, l, node):
-        while l:
-            if node >= l[-1]:
-                l.pop()
-            else: break
-        if l == []: l.append(node)
-        return l

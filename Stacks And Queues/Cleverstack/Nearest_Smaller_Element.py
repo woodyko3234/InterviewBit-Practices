@@ -1,23 +1,25 @@
 class Solution:
-    # @param arr : list of integers
+    # @param A : list of integers
     # @return a list of integers
-    def prevSmaller(self, arr):
-        length = len(arr)
-        output = [-1] * length
-        
-        i = 0
-        stack = []
-        while i < length:
-            cur = arr[i]
-            for indice in stack[::-1]:
-                if cur > indice:
-                    output[i] = indice
-                    break
-            stack.append(cur)
-            j = len(stack) - 2
+    def prevSmaller(self, A):
+        """
+        Find nearest element which is less than the current element and on its left.
+        """
+        gL = [-1]
+        smaller = [A[0]]
+        for i in A[1:]:
+            notAppended = True
+            j = len(smaller) - 1
             while j >= 0:
-                if stack[j] > stack[-1]:
-                    stack.pop(j)
-                j -= 1
-            i += 1
-        return output
+                if i > smaller[j]:
+                    gL.append(smaller[j])
+                    smaller.append(i)
+                    notAppended = False
+                    break
+                else:
+                    smaller.pop()
+                    j -= 1
+            if notAppended:
+                gL.append(-1)
+                smaller.append(i)
+        return gL

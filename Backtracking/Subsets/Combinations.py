@@ -22,7 +22,7 @@ class Solution:
             self.output.append(temp[:])
             return 
         for i in range(pos, n):
-            temp.append(pos+1)
+            temp.append(i+1)
             self.combine(n, k, i+1, temp)
             temp.pop()
         

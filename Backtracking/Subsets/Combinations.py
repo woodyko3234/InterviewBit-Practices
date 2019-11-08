@@ -1,6 +1,6 @@
 class Solution:
-    # @param A : integer
-    # @param B : integer
+    # @param n : integer
+    # @param k : integer
     # @return a list of list of integers
     def __init__(self):
         self.output = []

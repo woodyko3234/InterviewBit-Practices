@@ -52,5 +52,5 @@ class Solution:
                 k -= fac_val * idx
             self.output += arr.pop()
         
-        loopFunc(arr, n, k, facList)
+        loopFunc(arr, k, facList)
         return self.output

@@ -10,43 +10,46 @@ class Solution:
            There's no need to check horizontal or vertical
            since the situation is already considered when 
            defining puzzleMaker"""
-        def quadrant1Checker(puzzle, row, col, n):
-            if row > 0 and col < n-1:
-                if puzzle[row-1][col+1] != "Q":
-                    quadrant1Checker(puzzle, row-1, col+1, n)
-                else: return False
+        def quadrant1Checker(row, col, n, Q_pos):
+            while row > 0 and col < n-1:
+                if (row-1, col+1) in Q_pos: return False
+                else:
+                    row -= 1
+                    col += 1
             return True
             
-        def quadrant2Checker(puzzle, row, col, n):
-            if row > 0 and col > 0:
-                if puzzle[row-1][col-1] != "Q":
-                    quadrant2Checker(puzzle, row-1, col-1, n)
-                else: return False
+        def quadrant2Checker(row, col, n, Q_pos):
+            while row > 0 and col > 0:
+                if (row-1, col-1) in Q_pos: return False
+                else: 
+                    row -= 1
+                    col -= 1
             return True
         
-        def quadrant3Checker(puzzle, row, col, n):
-            if row < n-1 and col > 0:
-                if puzzle[row+1][col-1] != "Q":
-                    quadrant3Checker(puzzle, row+1, col-1, n)
-                else: return False
+        def quadrant3Checker(row, col, n, Q_pos):
+            while row < n-1 and col > 0:
+                if (row+1, col-1) in Q_pos: return False
+                else: 
+                    row += 1
+                    col -= 1
             return True
         
-        def quadrant4Checker(puzzle, row, col, n):
-            if row < n - 1 and col < n - 1:
-                if puzzle[row+1][col+1] != "Q":
-                    quadrant4Checker(puzzle, row+1, col+1, n)
-                else: return False
+        def quadrant4Checker(row, col, n, Q_pos):
+            while row < n-1 and col < n-1:
+                if (row+1, col+1) in Q_pos: return False
+                else: 
+                    row += 1
+                    col += 1
             return True
         
-        Q_col = []
-        for i in range(n):
-            Q_col.append(puzzle[i].find("Q"))
-        for row, col in enumerate(Q_col):
-            if not (quadrant1Checker(puzzle, row, col, n) and
-                    quadrant2Checker(puzzle, row, col, n) and
-                    quadrant3Checker(puzzle, row, col, n) and
-                    quadrant4Checker(puzzle, row, col, n)):
+        Q_pos = [(row, col) for row, col in enumerate(puzzle)]
+        for row, col in Q_pos:
+            if not (quadrant1Checker(row, col, n, Q_pos) and
+                    quadrant2Checker(row, col, n, Q_pos) and
+                    quadrant3Checker(row, col, n, Q_pos) and
+                    quadrant4Checker(row, col, n, Q_pos)):
                 return False
+        #print(absAdd, absDe)
         return True
 
     def solveNQueens(self, n):
@@ -54,14 +57,19 @@ class Solution:
         def puzzleMaker(n, puzzle = [], row = 0, col = list(range(n))):
             puzzle = puzzle or []
             if len(puzzle) < row+1 and row < n:
-                puzzle.append("."*n)
+                #puzzle.append("."*n)
+                puzzle.append(0)
             elif row == n: 
                 #print(puzzle)
                 if self.puzzleChecker(puzzle, n):
-                    self.nQueens += puzzle
+                    temp = []
+                    for i in range(n):
+                        temp.append("."*puzzle[i] + "Q" + "."*(n-1-puzzle[i]))
+                    self.nQueens.append(temp)
                 return
             for i in col:
-                puzzle[row] = "."*i + "Q" + "."*(n-1-i)
+                #puzzle[row] = "."*i + "Q" + "."*(n-1-i)
+                puzzle[row] = i
                 #print(puzzle)
                 updated_col = col[:]
                 updated_col.remove(i)
@@ -69,4 +77,4 @@ class Solution:
         puzzleMaker(n, [], 0, list(range(n)))
         #print(self.possiblePuzzles[:])
         #return self.possiblePuzzles
-        return [self.nQueens[i*n:(i+1)*n] for i in range(len(self.nQueens)//n)]
+        return self.nQueens

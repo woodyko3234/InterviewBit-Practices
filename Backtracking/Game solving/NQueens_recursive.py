@@ -49,7 +49,6 @@ class Solution:
                     quadrant3Checker(row, col, n, Q_pos) and
                     quadrant4Checker(row, col, n, Q_pos)):
                 return False
-        #print(absAdd, absDe)
         return True
 
     def solveNQueens(self, n):
@@ -58,7 +57,6 @@ class Solution:
         def puzzleMaker(n, puzzle = [], row = 0, col = list(range(n))):
             puzzle = puzzle or []
             if len(puzzle) < row+1 and row < n:
-                #puzzle.append("."*n)
                 puzzle.append(0)
             elif row == n: 
                 #print(puzzle)
@@ -69,7 +67,6 @@ class Solution:
                     self.nQueens.append(temp)
                 return
             for i in col:
-                #puzzle[row] = "."*i + "Q" + "."*(n-1-i)
                 puzzle[row] = i
                 puzzle = puzzle[:row+1]
                 if self.puzzleChecker(puzzle, n): 
@@ -78,6 +75,4 @@ class Solution:
                     puzzleMaker(n, puzzle, row+1, updated_col)
             return 
         puzzleMaker(n, [], 0, list(range(n)))
-        #print(self.possiblePuzzles[:])
-        #return self.possiblePuzzles
         return self.nQueens

@@ -53,7 +53,8 @@ class Solution:
         return True
 
     def solveNQueens(self, n):
-        if n <= 3: return []
+        if n == 1: return ["Q"]
+        elif n <= 3: return []
         def puzzleMaker(n, puzzle = [], row = 0, col = list(range(n))):
             puzzle = puzzle or []
             if len(puzzle) < row+1 and row < n:
@@ -70,10 +71,12 @@ class Solution:
             for i in col:
                 #puzzle[row] = "."*i + "Q" + "."*(n-1-i)
                 puzzle[row] = i
-                #print(puzzle)
-                updated_col = col[:]
-                updated_col.remove(i)
-                puzzleMaker(n, puzzle, row+1, updated_col)
+                puzzle = puzzle[:row+1]
+                if self.puzzleChecker(puzzle, n): 
+                    updated_col = col[:]
+                    updated_col.remove(i)
+                    puzzleMaker(n, puzzle, row+1, updated_col)
+            return 
         puzzleMaker(n, [], 0, list(range(n)))
         #print(self.possiblePuzzles[:])
         #return self.possiblePuzzles

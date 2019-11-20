@@ -59,12 +59,10 @@ class Solution:
             if len(puzzle) < row+1 and row < n:
                 puzzle.append(0)
             elif row == n: 
-                #print(puzzle)
-                if self.puzzleChecker(puzzle, n):
-                    temp = []
-                    for i in range(n):
-                        temp.append("."*puzzle[i] + "Q" + "."*(n-1-puzzle[i]))
-                    self.nQueens.append(temp)
+                temp = []
+                for i in range(n):
+                    temp.append("."*puzzle[i] + "Q" + "."*(n-1-puzzle[i]))
+                self.nQueens.append(temp)
                 return
             for i in col:
                 puzzle[row] = i

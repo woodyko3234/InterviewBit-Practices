@@ -66,7 +66,6 @@ class Solution:
                 updated_col = col[:]
                 updated_col.remove(i)
                 puzzleMaker(n, puzzle, row+1, updated_col)
-                puzzle[row] = "."*n
         puzzleMaker(n, [], 0, list(range(n)))
         #print(self.possiblePuzzles[:])
         #return self.possiblePuzzles

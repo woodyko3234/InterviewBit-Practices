@@ -52,19 +52,19 @@ class Solution:
             puzzle_unsolved = True
             break
         if puzzle_unsolved: 
-            rows = self.candidatorsTryer(rows)
+            rows = self.candidatorsTryer(rows, candLists)
                     
         return (False, blanks, candLists, rows, cols, matrix)
 
     def valChecker(self, trows, i, j, k):
-        if (str(k) in trows[i]) or (str(k) in [trows[l][j] for l in range(9)]) \
-            or (str(k) in [trows[i//3*3 + l][j//3*3] for l in range(3)]) \
-            or (str(k) in [trows[i//3*3 + l][j//3*3 + 1] for l in range(3)]) \
-            or (str(k) in [trows[i//3*3 + l][j//3*3 + 2] for l in range(3)]):
+        if (k in trows[i]) or (k in [trows[l][j] for l in range(9)]) \
+            or (k in [trows[i//3*3 + l][j//3*3] for l in range(3)]) \
+            or (k in [trows[i//3*3 + l][j//3*3 + 1] for l in range(3)]) \
+            or (k in [trows[i//3*3 + l][j//3*3 + 2] for l in range(3)]):
                 return False
         return True
 
-    def candidatorsTryer(self, rows, i = 0, j = 0):
+    def candidatorsTryer(self, rows, candLists, i = 0, j = 0):
         """
         After finding out that the sudoku puzzle cannot be finished with candidatorsMaker
         For the blanks left, we have to try each possible option 
@@ -77,11 +77,13 @@ class Solution:
         else:
             nextR = i
             nextC = j + 1
-        if rows[i][j] != "0": return self.candidatorsTryer(rows, nextR, nextC)
-        for k in range(1, 10):
+        if rows[i][j] != "0": 
+            return self.candidatorsTryer(rows, candLists, nextR, nextC)
+        for k in candLists[i][j]:
             if self.valChecker(rows, i, j, k):
-                rows[i][j] = str(k)
-                if self.candidatorsTryer(rows, nextR, nextC): return rows
+                rows[i][j] = k
+                if self.candidatorsTryer(rows, candLists, nextR, nextC): 
+                    return rows
                 rows[i][j] = "0"
         return False
     

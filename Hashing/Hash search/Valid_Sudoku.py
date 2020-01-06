@@ -1,32 +1,37 @@
-'''
-sudoku: 
-1. no duplicates in each row
-2. no duplicates in each col
-3. no duplicates in each block (3*3)
-'''
-#Do 3 checks together
 from collections import defaultdict
 class Solution:
     # @param A : tuple of strings
     # @return an integer
     def isValidSudoku(self, A):
-        rows = len(A)
-        cols = len(A[0])
-        all_rows = dict()
-        all_cols = dict()
-        all_blocks = dict()
+        '''
+        To be valid, a sudoku puzzle must apply to:
+        1. No duplicated int in the same row;
+        2. No duplicated int in the same column; and
+        3. No duplicated int in the same matrix
+        The code doesn't have to check either the character("0") or the
+        format("....8..79.") is valid or not.
+        '''
+        rows = defaultdict(dict)
+        columns = defaultdict(dict)
+        matrixes = defaultdict(dict)
         for i in range(9):
-            all_rows[i] = defaultdict(bool)
-            all_cols[i] = defaultdict(bool)
-            all_blocks[i] = defaultdict(bool)
-            
-        for row in range(rows):
-            for col in range(cols):
-                if A[row][col] == '.': pass
-                elif all_blocks[(row//3) + (col//3)*3][A[row][col]] or all_rows[row][A[row][col]] or all_cols[col][A[row][col]]:
-                    return 0
-                else:
-                    all_blocks[(row//3) + (col//3)*3][A[row][col]] = True
-                    all_cols[col][A[row][col]] = True
-                    all_rows[row][A[row][col]] = True
+            rows[i] = dict()
+            for j in range(9):
+                if A[i][j] == ".": continue
+                try:
+                    if rows[i][A[i][j]]: return 0
+                except:
+                    rows[i][A[i][j]] = True
+                if not columns[j]:
+                    columns[j] = dict()
+                try:
+                    if columns[j][A[i][j]]: return 0
+                except:
+                    columns[j][A[i][j]] = True
+                if not matrixes[i//3*3+j//3]:
+                    matrixes[i//3*3+j//3] = dict()
+                try:
+                    if matrixes[i//3*3+j//3][A[i][j]]: return 0
+                except:
+                    matrixes[i//3*3+j//3][A[i][j]] = True
         return 1

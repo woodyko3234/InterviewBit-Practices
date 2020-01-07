@@ -15,21 +15,16 @@ class Solution:
         columns = defaultdict(dict)
         matrixes = defaultdict(dict)
         for i in range(9):
-            rows[i] = dict()
             for j in range(9):
                 if A[i][j] == ".": continue
                 try:
                     if rows[i][A[i][j]]: return 0
                 except:
                     rows[i][A[i][j]] = True
-                if not columns[j]:
-                    columns[j] = dict()
                 try:
                     if columns[j][A[i][j]]: return 0
                 except:
                     columns[j][A[i][j]] = True
-                if not matrixes[i//3*3+j//3]:
-                    matrixes[i//3*3+j//3] = dict()
                 try:
                     if matrixes[i//3*3+j//3][A[i][j]]: return 0
                 except:

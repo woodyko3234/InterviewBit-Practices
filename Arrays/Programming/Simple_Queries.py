@@ -4,10 +4,7 @@ class Solution:
     # @param B : list of integers
     # @return a list of integers
     def solve(self, A, B):
-        """
-        Must try combining query 1 & 2, 
-        that will reduce memory requirement a lot
-        """
+        #query 1 & 2 combined
         frequencies = self.getFrequency(A)
         n, proA = len(A), []
         #query 3

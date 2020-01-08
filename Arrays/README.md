@@ -69,6 +69,7 @@ Python programming practices on InterviewBit
 | Question        | Solution           | Explanation  |
 | ------------- |:-------------:| -----:|
 |[MAXSPPROD](https://www.interviewbit.com/problems/maxspprod/)|[MAXSPPROD](https://github.com/woodyko3234/InterviewBit-Practices/blob/master/Arrays/Array/MAXSPPROD.py)| [InterviewBit – MAXSPPROD](https://python5566.wordpress.com/2019/02/03/interviewbit-maxspprod/) |
+|[KEEP SWAPPING 2](https://www.interviewbit.com/problems/keep-swapping-2/?ref=similar_problems)|[KEEP SWAPPING 2](https://github.com/woodyko3234/InterviewBit-Practices/blob/master/Arrays/Array/KEEP_SWAPPING_2.py)|[InterviewBit – KEEP SWAPPING 2](https://python5566.wordpress.com/2020/01/08/interviewbit-keep-swapping-2/)|
 
 ### Arrangement
 | Question        | Solution           | Explanation  |

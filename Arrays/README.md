@@ -78,3 +78,8 @@ Python programming practices on InterviewBit
 |[Rotate Matrix](https://www.interviewbit.com/problems/rotate-matrix/)|[Rotate Matrix](https://github.com/woodyko3234/InterviewBit-Practices/blob/master/Arrays/Arrangement/Rotate_Matrix.py)| [InterviewBit – Rotate Matrix](https://python5566.wordpress.com/2019/02/04/interviewbit-rotate-matrix/) |
 |[Next Permutation](https://www.interviewbit.com/problems/next-permutation/)|[Next Permutation](https://github.com/woodyko3234/InterviewBit-Practices/blob/master/Arrays/Arrangement/Next_Permutation.py)| [InterviewBit – Next Permutation](https://python5566.wordpress.com/2019/02/04/interviewbit-next-permutation/) |
 |[Find Permutation](https://www.interviewbit.com/problems/find-permutation/)|[Find Permutation](https://github.com/woodyko3234/InterviewBit-Practices/blob/master/Arrays/Arrangement/Find_Permutation.py)| [InterviewBit – Find Permutation](https://python5566.wordpress.com/2017/11/02/interviewbit-find-permutation/) |
+
+### Programming
+| Question        | Solution           | Explanation  |
+| ------------- |:-------------:| -----:|
+|[Simple Queries](https://www.interviewbit.com/problems/simple-queries/)|[Simple Queries](https://github.com/woodyko3234/InterviewBit-Practices/blob/master/Arrays/Programming/Simple_Queries.py)|[InterviewBit – Simple Queries](https://python5566.wordpress.com/2020/01/09/interviewbit-simple-queries/)|

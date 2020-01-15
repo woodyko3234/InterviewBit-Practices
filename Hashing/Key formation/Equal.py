@@ -3,39 +3,29 @@ class Solution:
     # @param A : list of integers
     # @return a list of integers
     def equal(self, A):
-        addition = defaultdict(list)
-        n = len(A)
-        for i in range(0, n-1):
-            duplicates = defaultdict(bool)
+        n, output = len(A), []
+        pairwiseSum = defaultdict(list)
+        for i in range(n-1):
             for j in range(i+1, n):
-                if not duplicates[A[j]]:
-                    try:
-                        if i == addition[A[i]+A[j]][-1] or i == addition[A[i]+A[j]][-1][-1]: continue
-                    except: pass
-                    try:
-                        if j == addition[A[i]+A[j]][-1] or j == addition[A[i]+A[j]][-1][-1]: continue
-                    except: pass
-                    addition[A[i]+A[j]].append([i, j])
-                    duplicates[A[j]] = True
-                else: continue
-                    
-        
-        a = float('inf')
-        values = list(addition.values())
-        for i in range(len(values)):
-            length = len(values[i])
-            if length > 1:
-                if a > values[i][0][0]:
-                    a,b,c,d = values[i][0][0], values[i][0][1], values[i][1][0], values[i][1][1]
-                elif a == values[i][0][0] and b > values[i][0][1]:
-                    b,c,d = values[i][0][1], values[i][1][0], values[i][1][1]
-                elif a == values[i][0][0] and b == values[i][0][1] and c > values[i][1][0]:
-                    c,d = values[i][1][0], values[i][1][1]
-                elif a == values[i][0][0] and b == values[i][0][1] and c == values[i][1][0] and d > values[i][1][1]:
-                    d = values[i][1][1]
-            else: continue
-        
-        if a != float('inf'):
-            return [a,b,c,d]
-        else:
-            return []
+                if len(pairwiseSum[A[i]+A[j]]) == 0: pass
+                elif len(pairwiseSum[A[i]+A[j]]) >= 2: continue
+                #restrictions: A1 < B1, C1 < D1
+                #A1 < C1, B1 != D1, B1 != C1
+                elif (i <= pairwiseSum[A[i]+A[j]][0][0]) or (
+                    pairwiseSum[A[i]+A[j]][0][1] == i) or (
+                    pairwiseSum[A[i]+A[j]][0][1] == j):
+                    continue
+                pairwiseSum[A[i]+A[j]].append([i, j])
+        for val in pairwiseSum.values():
+            if len(val) < 2: continue
+            if not output: pass
+            elif (val[0][0] < output[0]): pass
+            elif (val[0][0] > output[0]): continue
+            elif (val[0][1] < output[1]): pass
+            elif (val[0][1] > output[1]): continue
+            elif (val[1][0] < output[2]): pass
+            elif (val[1][0] > output[2]): continue
+            elif (val[1][1] < output[3]): pass
+            elif (val[1][1] > output[3]): continue
+            output = [val[0][0], val[0][1], val[1][0], val[1][1]]
+        return output

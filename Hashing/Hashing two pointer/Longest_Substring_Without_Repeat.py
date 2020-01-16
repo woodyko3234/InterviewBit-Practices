@@ -14,6 +14,5 @@ class Solution:
             #update string idx
             idxFollowup[A[i-1]] = i
             if longestSubL < tempL:
-                #print(idxFollowup[A[i]], recordedIdx, tempL)
                 longestSubL = tempL
         return longestSubL

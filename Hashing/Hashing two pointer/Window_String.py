@@ -1,47 +1,35 @@
 from collections import defaultdict, Counter
 class Solution:
-    # @param A : string
-    # @param B : string
+    # @param S : string
+    # @param T : string
     # @return a strings
-    def minWindow(self, A, B):
-        if len(A) < len(B): return ""
-        
-        target_counter = Counter(B)
-            
-        n = len(A)
-        start = -1
-        maxl = n + 1
+    def minWindow(self, S, T):
+        if len(T) > len(S): return ""
+        tCounter = Counter(T)
+        sPos = defaultdict(list)
+        n, m = len(S), len(T)
+        minlen, startP = n+1, -1
         output = ""
-        positions = defaultdict(list)
-        target_l = len(B)
         for i in range(n):
-            try:
-                if target_counter[A[i]] >= 1: 
-                    target_counter[A[i]] -= 1
-                    target_l -= 1
-                    positions[A[i]].append(i)
-                    if start < 0:
-                        start = i
-                    if target_l == 0 and maxl > (i - start + 1):
-                        maxl = (i - start + 1)
-                        output = A[start: i+1]
-                else:
-                    if positions[A[i]][0] != start:
-                        positions[A[i]].append(i)
-                        positions[A[i]].pop(0)
-                    else:
-                        #recalculate start and maxl
-                        positions[A[i]].append(i)
-                        positions[A[i]].pop(0)
-                        new_s = []
-                        for j in list(positions.values()):
-                            if len(j) > 0:
-                                new_s.append(j[0])
-                        start = min(new_s)
-                        if target_l == 0 and maxl > (i - start + 1):
-                            maxl = (i - start + 1)
-                            output = A[start: i+1]
-                        
-            except: continue
-            #print(output)
+            if tCounter[S[i]] >= 1:
+                tCounter[S[i]] -= 1
+                m -= 1
+                sPos[S[i]].append(i)
+                if startP < 0:
+                    startP = i
+            elif sPos[S[i]] == []: continue
+            else:
+                pos = sPos[S[i]].pop(0)
+                sPos[S[i]].append(i)
+                if pos > startP: continue
+            #m > 0 means there's no such fitting substring yet
+            if m > 0: continue
+            find_newS = []
+            for val in sPos.values():
+                if not val: continue
+                find_newS.append(val[0])
+            startP = min(find_newS)
+            if minlen > (i - startP + 1):
+                minlen = (i - startP + 1)
+                output = S[startP: i+1]
         return output

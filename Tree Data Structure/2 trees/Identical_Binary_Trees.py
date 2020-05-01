@@ -15,7 +15,7 @@ class Solution:
         elif root_A == None or root_B == None: 
             #print("notsametree")
             return 0
-        elif not self.isBranchSame(root_A, root_B): 
+        elif not self.isSameBranch(root_A, root_B): 
             #print("notsamebranch")
             return 0
         elif not self.isSameNode(root_A, root_B):
@@ -35,7 +35,7 @@ class Solution:
             return 1
         return 0
     
-    def isBranchSame(self, node_A, node_B):
+    def isSameBranch(self, node_A, node_B):
         if (node_A.left and not node_B.left) or (not node_A.left and node_B.left):
             return 0
         elif (node_A.right and not node_B.right) or (not node_A.right and node_B.right):

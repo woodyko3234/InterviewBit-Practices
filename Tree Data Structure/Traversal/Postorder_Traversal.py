@@ -6,21 +6,27 @@
 #        self.right = None
 
 class Solution:
-    # @param A : root node of tree
+    # @param root : root node of tree
     # @return a list of integers
-    def postorderTraversal(self, A):
-        if not A:
-            return []
-        stack1 = [A]
-        stack2 = []
+    # Using recursion is not allowed.
+    def postorderTraversal(self, root):
+        """
+        postorder: bottom-up, left to right appending method
+        go down to the leaf layer first, and then append nodes 
+        from left to right, leaf to root, stack by stack
+        e.g. full binary tree 1 2 3 4 5 6 7
+        => 4 5 2 6 7 3 1
+        """
+        output = []
+        if not root: return output
+        else:
+            temp = [root]
+        while temp:
+            curr = temp.pop()
+            output.append(curr.val)
+            if curr.left:
+                temp.append(curr.left)
+            if curr.right:
+                temp.append(curr.right)
+        return output[::-1]
         
-        while len(stack1) > 0:
-            current = stack1.pop()
-            stack2.append(current.val)
-            
-            if current.left is not None:
-                stack1.append(current.left)
-            if current.right is not None:
-                stack1.append(current.right)
-        
-        return stack2[::-1]

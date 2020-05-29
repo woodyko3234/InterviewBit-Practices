@@ -29,15 +29,3 @@ class Solution:
     def isSameNode(self, node_A, node_B):
         if node_A.val != node_B.val: return 0
         return 1
-    
-    def isLeaf(self, d):
-        if d.left is None and d.right is None:
-            return 1
-        return 0
-    
-    #def isSameBranch(self, node_A, node_B):
-        #if (node_A.left and not node_B.left) or (not node_A.left and node_B.left):
-            #return 0
-        #elif (node_A.right and not node_B.right) or (not node_A.right and node_B.right):
-            #return 0
-        #return 1

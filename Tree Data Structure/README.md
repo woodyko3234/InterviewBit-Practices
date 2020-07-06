@@ -7,7 +7,7 @@ Python programming practices on InterviewBit
 | Question        | Solution           | Explanation  |
 | ------------- |:-------------:| -----:|
 |[Hotel Reviews](https://www.interviewbit.com/problems/hotel-reviews/)|[Hotel Reviews](https://github.com/woodyko3234/InterviewBit-Practices/blob/master/Tree%20Data%20Structure/Tries/Hotel_Reviews_Trie.py)|[InterviewBit - Hotel Reviews](https://python5566.wordpress.com/2020/05/28/interviewbit-hotel-reviews/)|
-|[]()|[]()|[]()|
+|[Shortest Unique Prefix](https://www.interviewbit.com/problems/shortest-unique-prefix/)|[Shortest Unique Prefix](https://github.com/woodyko3234/InterviewBit-Practices/blob/master/Tree%20Data%20Structure/Trie/Shortest_Unique_Prefix.py)|[InterviewBit – Shortest Unique Prefix](https://python5566.wordpress.com/2020/07/06/interviewbit-shortest-unique-prefix/)|
 
 ### Simple tree ops
 | Question        | Solution           | Explanation  |
@@ -78,4 +78,3 @@ Python programming practices on InterviewBit
 | Question        | Solution           | Explanation  |
 | ------------- |:-------------:| -----:|
 |[Order of People Heights](https://www.interviewbit.com/problems/order-of-people-heights/)|[Order of People Heights](https://github.com/woodyko3234/InterviewBit-Practices/blob/master/Tree%20Data%20Structure/Segment%20tree/Order_of_People_Heights.py)|[InterviewBit – Order of People Heights](https://python5566.wordpress.com/2020/07/06/interviewbit-order-of-people-heights/)|
-|[]()|[]()|[]()|

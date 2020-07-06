@@ -36,10 +36,46 @@ Python programming practices on InterviewBit
 |[BST Iterator](https://www.interviewbit.com/problems/bst-iterator/)|[BST Iterator](https://github.com/woodyko3234/InterviewBit-Practices/blob/master/Tree%20Data%20Structure/Bst%20traversal/BST_Iterator.py)|[InterviewBit – BST Iterator](https://python5566.wordpress.com/2020/06/13/interviewbit-bst-iterator/)|
 |[Recover Binary Search Tree](https://www.interviewbit.com/problems/recover-binary-search-tree/)|[Recover Binary Search Tree](https://github.com/woodyko3234/InterviewBit-Practices/blob/master/Tree%20Data%20Structure/Bst%20traversal/Recover_Binary_Search_Tree_Morris.py)|[InterviewBit – Recover Binary Search Tree](https://python5566.wordpress.com/2020/06/13/interviewbit-recover-binary-search-tree/)|
 
+### Inplace change
+| Question        | Solution           | Explanation  |
+| ------------- |:-------------:| -----:|
+|[Invert the Binary Tree](https://www.interviewbit.com/problems/invert-the-binary-tree/)|[Invert the Binary Tree](https://github.com/woodyko3234/InterviewBit-Practices/blob/master/Tree%20Data%20Structure/Inplace%20change/Invert_the_Binary_Tree.py)|[InterviewBit – Invert the Binary Tree](https://python5566.wordpress.com/2020/06/13/interviewbit-invert-the-binary-tree/)|
 
 
+### Traversal
+| Question        | Solution           | Explanation  |
+| ------------- |:-------------:| -----:|
+|[Inorder Traversal](https://www.interviewbit.com/problems/inorder-traversal/)|[Inorder Traversal](https://github.com/woodyko3234/InterviewBit-Practices/blob/master/Tree%20Data%20Structure/Traversal/Inorder_Traversal.py)|[InterviewBit – Traversals (Inorder, Preorder, and Postorder)](https://python5566.wordpress.com/2020/06/13/interviewbit-traversals-inorder-preorder-and-postorder/)|
+|[Postorder Traversal](https://www.interviewbit.com/problems/postorder-traversal/)|[Postorder Traversal](https://github.com/woodyko3234/InterviewBit-Practices/blob/master/Tree%20Data%20Structure/Traversal/Postorder_Traversal.py)|[InterviewBit – Traversals (Inorder, Preorder, and Postorder)](https://python5566.wordpress.com/2020/06/13/interviewbit-traversals-inorder-preorder-and-postorder/)|
+|[Preorder Traversal](https://www.interviewbit.com/problems/preorder-traversal/)|[Preorder Traversal](https://github.com/woodyko3234/InterviewBit-Practices/blob/master/Tree%20Data%20Structure/Traversal/Preorder_Traversal.py)|[InterviewBit – Traversals (Inorder, Preorder, and Postorder)](https://python5566.wordpress.com/2020/06/13/interviewbit-traversals-inorder-preorder-and-postorder/)|
 
+### Level order
+| Question        | Solution           | Explanation  |
+| ------------- |:-------------:| -----:|
+|[ZigZag Level Order Traversal BT](https://www.interviewbit.com/problems/zigzag-level-order-traversal-bt/)|[ZigZag Level Order Traversal BT](https://github.com/woodyko3234/InterviewBit-Practices/blob/master/Tree%20Data%20Structure/Level%20order/ZigZag_Level_Order_Traversal_BT.py)|[InterviewBit – ZigZag Level Order Traversal BT](https://python5566.wordpress.com/2020/06/19/interviewbit-zigzag-level-order-traversal-bt/)|
+|[Populate Next Right Pointers Tree](https://www.interviewbit.com/problems/populate-next-right-pointers-tree/)|[Populate Next Right Pointers Tree](https://github.com/woodyko3234/InterviewBit-Practices/blob/master/Tree%20Data%20Structure/Level%20order/Populate_Next_Right_Pointers_Tree_loop.py)|[InterviewBit – Populate Next Right Pointers Tree](https://python5566.wordpress.com/2020/06/20/interviewbit-populate-next-right-pointers-tree/)|
 
-|[]()|[]()|[]()|
-|[]()|[]()|[]()|
+### Root to leaf
+| Question        | Solution           | Explanation  |
+| ------------- |:-------------:| -----:|
+|[Path Sum](https://www.interviewbit.com/problems/path-sum/)|[Path Sum](https://github.com/woodyko3234/InterviewBit-Practices/blob/master/Tree%20Data%20Structure/Root%20to%20leaf/Path_Sum.py)|[InterviewBit – Path Sum](https://python5566.wordpress.com/2020/06/26/interviewbit-path-sum/)|
+|[Root to Leaf Paths With Sum](https://www.interviewbit.com/problems/root-to-leaf-paths-with-sum/)|[Root to Leaf Paths With Sum](https://github.com/woodyko3234/InterviewBit-Practices/blob/master/Tree%20Data%20Structure/Root%20to%20leaf/Root_to_Leaf_Paths_With_Sum.py)|[InterviewBit – Root to Leaf Paths With Sum](https://python5566.wordpress.com/2020/06/26/interviewbit-root-to-leaf-paths-with-sum/)|
+|[Max Depth of Binary Tree](https://www.interviewbit.com/problems/max-depth-of-binary-tree/)|[Max Depth of Binary Tree](https://github.com/woodyko3234/InterviewBit-Practices/blob/master/Tree%20Data%20Structure/Root%20to%20leaf/Max_Depth_of_Binary_Tree.py)|[InterviewBit – Min/Max Depth of Binary Tree](https://python5566.wordpress.com/2020/06/26/interviewbit-min-max-depth-of-binary-tree/)|
+|[Min Depth of Binary Tree](https://www.interviewbit.com/problems/min-depth-of-binary-tree/)|[Min Depth of Binary Tree](https://github.com/woodyko3234/InterviewBit-Practices/blob/master/Tree%20Data%20Structure/Root%20to%20leaf/Min_Depth_of_Binary_Tree.py)|[InterviewBit – Min/Max Depth of Binary Tree](https://python5566.wordpress.com/2020/06/26/interviewbit-min-max-depth-of-binary-tree/)|
+|[Sum Root to Leaf Numbers](https://www.interviewbit.com/problems/sum-root-to-leaf-numbers/)|[Sum Root to Leaf Numbers](https://github.com/woodyko3234/InterviewBit-Practices/blob/master/Tree%20Data%20Structure/Root%20to%20leaf/Sum_Root_to_Leaf_Numbers.py)|[InterviewBit – Sum Root to Leaf Numbers](https://python5566.wordpress.com/2020/06/26/interviewbit-sum-root-to-leaf-numbers/)|
+
+### Tree search
+| Question        | Solution           | Explanation  |
+| ------------- |:-------------:| -----:|
+|[Least Common Ancestor](https://www.interviewbit.com/problems/least-common-ancestor/)|[Least Common Ancestor](https://github.com/woodyko3234/InterviewBit-Practices/blob/master/Tree%20Data%20Structure/Tree%20search/Least_Common_Ancestor.py)|[InterviewBit -Least Common Ancestor](https://python5566.wordpress.com/2020/06/30/interviewbit-least-common-ancestor/)|
+
+### Linkedlist tree
+| Question        | Solution           | Explanation  |
+| ------------- |:-------------:| -----:|
+|[Flatten Binary Tree to Linked List](https://www.interviewbit.com/problems/flatten-binary-tree-to-linked-list/)|[Flatten Binary Tree to Linked List](https://github.com/woodyko3234/InterviewBit-Practices/blob/master/Tree%20Data%20Structure/Linkedlist%20tree/Flatten_Binary_Tree_to_Linked_List.py)|[InterviewBit – Flatten Binary Tree to Linked List](https://python5566.wordpress.com/2020/07/01/interviewbit-flatten-binary-tree-to-linked-list/)|
+
+### Segment tree
+| Question        | Solution           | Explanation  |
+| ------------- |:-------------:| -----:|
+|[Order of People Heights](https://www.interviewbit.com/problems/order-of-people-heights/)|[Order of People Heights](https://github.com/woodyko3234/InterviewBit-Practices/blob/master/Tree%20Data%20Structure/Segment%20tree/Order_of_People_Heights.py)|[InterviewBit – Order of People Heights](https://python5566.wordpress.com/2020/07/06/interviewbit-order-of-people-heights/)|
 |[]()|[]()|[]()|

@@ -28,5 +28,5 @@ class Solution:
             #calculate the combinations with recursion
             #ans[l] => recursion on the left subtree
             #ans[r] => recursion on the right subtree
-            ans.append((self.comb(l,n-1)*ans[l]*ans[r])%MOD)
+            ans.append((self.comb(l,n-1)%MOD)*ans[l]%MOD*ans[r]%MOD)
         return ans[A]

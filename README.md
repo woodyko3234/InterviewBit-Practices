@@ -17,3 +17,4 @@ Hope you find some useful or inspiring and please feel free to let me know if th
 ## Part IX: [Backtracking](https://github.com/woodyko3234/InterviewBit-Practices/blob/master/Backtracking/README.md)
 ## Part X: [Hashing](https://github.com/woodyko3234/InterviewBit-Practices/blob/master/Hashing/README.md)
 ## Part XI: [Tree Data Structure](https://github.com/woodyko3234/InterviewBit-Practices/blob/master/Tree%20Data%20Structure/README.md)
+## Part XII: [Heaps and Maps](https://github.com/woodyko3234/InterviewBit-Practices/blob/master/Heaps%20and%20Maps/README.md)

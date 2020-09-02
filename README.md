@@ -18,3 +18,4 @@ Hope you find some useful or inspiring and please feel free to let me know if th
 ## Part X: [Hashing](https://github.com/woodyko3234/InterviewBit-Practices/blob/master/Hashing/README.md)
 ## Part XI: [Tree Data Structure](https://github.com/woodyko3234/InterviewBit-Practices/blob/master/Tree%20Data%20Structure/README.md)
 ## Part XII: [Heaps and Maps](https://github.com/woodyko3234/InterviewBit-Practices/blob/master/Heaps%20and%20Maps/README.md)
+## Part XIII: [Greedy Algorithm](https://github.com/woodyko3234/InterviewBit-Practices/blob/master/Greedy%20Algorithm/README.md)
